@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class ButtonsManager : MonoBehaviour
 {
     public GameObject mainPanel;
     public GameObject optionsPanel;
+
+    public AudioManager audioManager;
 
     public void Play()
     {
@@ -20,6 +21,7 @@ public class ButtonsManager : MonoBehaviour
         optionsPanel.SetActive(false);
 
         panel.SetActive(true);
+        audioManager.PlaySoundButton(); 
     }
 
     public void Quit()

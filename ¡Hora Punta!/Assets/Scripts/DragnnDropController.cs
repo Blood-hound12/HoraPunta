@@ -10,6 +10,8 @@ public class DragnnDropController : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    [SerializeField] private float knockbackForce = 2.4f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -50,7 +52,18 @@ public class DragnnDropController : MonoBehaviour
 
     private IEnumerator MovementCooldown()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.45f);
         rb.velocity = Vector2.zero;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.transform.CompareTag("GreenPassenger") || collision.transform.CompareTag("RedPassenger"))
+        {
+            Vector2 difference = (transform.position - collision.transform.position).normalized;
+            Vector2 force = difference * -knockbackForce;
+            rb.AddForce(force, ForceMode2D.Impulse);
+            StartCoroutine(MovementCooldown());
+        }
     }
 }

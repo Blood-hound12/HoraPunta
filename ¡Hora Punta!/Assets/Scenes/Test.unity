@@ -208,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -324,7 +324,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &194704026
 GameObject:
@@ -355,7 +355,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: e32b8475b77606b4f95a9d7171eadca2, type: 2}
   m_audioClip: {fileID: 8300000, guid: b17ed56ea403c9841b2035e4a92e036f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.741
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -452,7 +452,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &275110256
 GameObject:
@@ -767,7 +767,7 @@ MonoBehaviour:
   SuccessScore: 0
   FailScore: 0
   ScoreText: {fileID: 980078592}
-  HighScoreText: {fileID: 0}
+  HighScoreText: {fileID: 88343319}
   life1: {fileID: 977600573}
   life2: {fileID: 1754540687}
   life3: {fileID: 1925811252}
@@ -784,7 +784,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &464235645
 PrefabInstance:
@@ -6218,8 +6218,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6482,7 +6482,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1577869793
 GameObject:
@@ -11837,7 +11837,7 @@ Transform:
   - {fileID: 474569473}
   - {fileID: 321301798}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1837879825
 GameObject:
@@ -12144,7 +12144,7 @@ Transform:
   - {fileID: 1701728611}
   - {fileID: 1767915745}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2065100229
 PrefabInstance:
@@ -12311,7 +12311,7 @@ RectTransform:
   - {fileID: 1754540688}
   - {fileID: 977600574}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

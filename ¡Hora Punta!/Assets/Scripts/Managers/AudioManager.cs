@@ -7,8 +7,11 @@ using UnityEngine.UI;
 public class AudioManager : MonoBehaviour
 {
     public Slider volumenMaster;
+    public Slider volumenFX;
     public Toggle mute;
     public AudioMixer mixer;
+    public AudioSource fxSource;
+    public AudioClip clickSound;
     private float lastVolume;
 
     private void Awake()
@@ -33,8 +36,13 @@ public class AudioManager : MonoBehaviour
     {
         mixer.SetFloat("VolMaster", v);
     }
-    //public void PlaySoundButton()
-    //{
-    // fxSource.PlayOnShot(clickSound);
-    //}
+    public void ChangeVolumeFX(float v)
+    {
+        mixer.SetFloat("FxAudio", v);
+    }
+    public void PlaySoundButton()
+    {
+        fxSource.clip = clickSound;
+        fxSource.Play();
+    }
 }

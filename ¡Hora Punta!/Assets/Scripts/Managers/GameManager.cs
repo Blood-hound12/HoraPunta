@@ -17,7 +17,11 @@ public class GameManager : MonoBehaviour
     public GameObject life2;
     public GameObject life3;
 
-    // Update is called once per frame
+    private void Awake()
+    {
+        updateHighScore();
+    }
+
     void Update()
     {
         ScoreText.text = "Score: " + SuccessScore;
@@ -30,6 +34,21 @@ public class GameManager : MonoBehaviour
     public void AddScore()
     {
         SuccessScore += 1;
+        HighScore();
+    }
+
+    void HighScore()
+    {
+        if(SuccessScore > PlayerPrefs.GetFloat("HighScore", 0))
+        {
+            PlayerPrefs.SetFloat("HighScore", SuccessScore);
+            updateHighScore();
+        }
+    }
+
+    void updateHighScore()
+    {
+        HighScoreText.text = "High Score: " + PlayerPrefs.GetFloat("HighScore", 0);
     }
 
     public void AddFailScore()
