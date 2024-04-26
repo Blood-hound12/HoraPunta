@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55C33470-C19C-1E94-893D-F3741BAD804D}|Assembly-CSharp.csproj|c:\\users\\marce\\onedrive\\documentos\\gamedev\\proyectos\\unity\\prototypes\\\u00A1hora punta!\\assets\\scripts\\managers\\dontdestroyonload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C33470-C19C-1E94-893D-F3741BAD804D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\dontdestroyonload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C33470-C19C-1E94-893D-F3741BAD804D}|Assembly-CSharp.csproj|C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\assets\\scripts\\detectorred.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C33470-C19C-1E94-893D-F3741BAD804D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectorred.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C33470-C19C-1E94-893D-F3741BAD804D}|Assembly-CSharp.csproj|C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\assets\\scripts\\detectorgreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C33470-C19C-1E94-893D-F3741BAD804D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectorgreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C33470-C19C-1E94-893D-F3741BAD804D}|Assembly-CSharp.csproj|C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\assets\\scripts\\managers\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C33470-C19C-1E94-893D-F3741BAD804D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C33470-C19C-1E94-893D-F3741BAD804D}|Assembly-CSharp.csproj|C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\assets\\scripts\\dragnndropcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C33470-C19C-1E94-893D-F3741BAD804D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dragnndropcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DontDestroyOnLoad.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\Assets\\Scripts\\Managers\\DontDestroyOnLoad.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\DontDestroyOnLoad.cs",
+              "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\Assets\\Scripts\\Managers\\DontDestroyOnLoad.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\DontDestroyOnLoad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T02:27:50.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainMenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\Assets\\Scripts\\Managers\\MainMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\MainMenuManager.cs",
+              "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\Assets\\Scripts\\Managers\\MainMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\MainMenuManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T01:10:10.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetectorGreen.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\Assets\\Scripts\\DetectorGreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectorGreen.cs",
+              "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\Assets\\Scripts\\DetectorGreen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectorGreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T04:44:52.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetectorRed.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\Assets\\Scripts\\DetectorRed.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectorRed.cs",
+              "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\Assets\\Scripts\\DetectorRed.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectorRed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T04:44:13.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DragnnDropController.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\Assets\\Scripts\\DragnnDropController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DragnnDropController.cs",
+              "ToolTip": "C:\\Users\\marce\\OneDrive\\Documentos\\GameDev\\Proyectos\\Unity\\Prototypes\\\u00A1Hora Punta!\\Assets\\Scripts\\DragnnDropController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DragnnDropController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA0wDYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T04:43:34.841Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
