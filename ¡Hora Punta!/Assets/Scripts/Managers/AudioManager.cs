@@ -17,6 +17,7 @@ public class AudioManager : MonoBehaviour
     private void Awake()
     {
         volumenMaster.onValueChanged.AddListener(ChangeVolumeMaster);
+        volumenFX.onValueChanged.AddListener(ChangeVolumeFX);
     }
 
     public void SetMute()
