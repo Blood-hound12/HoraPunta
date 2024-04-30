@@ -17,9 +17,20 @@ public class GameManager : MonoBehaviour
     public GameObject life2;
     public GameObject life3;
 
+    public static GameManager current;
+
     private void Awake()
     {
         updateHighScore();
+        
+        if(current == null)
+        {
+            current = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Update()
