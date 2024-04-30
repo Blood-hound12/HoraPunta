@@ -1357,10 +1357,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasajero rojo (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6238425078144362708, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2818764109184272091, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1801206854}
   m_SourcePrefab: {fileID: 100100000, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
 --- !u!1 &474569472
 GameObject:
@@ -1628,7 +1632,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.8352704
+  orthographic size: 7.1881666
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1652,7 +1656,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.14, z: -8.96}
+  m_LocalPosition: {x: 0.34, y: -1.14, z: -8.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1793,6 +1797,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591965666}
   m_CullTransparentMesh: 1
+--- !u!1 &604900772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2818764109184272091, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+  m_PrefabInstance: {fileID: 802952740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &604900778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604900772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swipeForce: 10
+  knockbackForce: 2.4
+--- !u!1 &616345333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1457284139666800432, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
+  m_PrefabInstance: {fileID: 1033401935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &616345339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616345333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swipeForce: 10
+  knockbackForce: 2.4
 --- !u!1 &638322586
 GameObject:
   m_ObjectHideFlags: 0
@@ -7025,11 +7067,53 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasajero rojo (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6238425078144362708, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2818764109184272091, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 768515318}
   m_SourcePrefab: {fileID: 100100000, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+--- !u!1 &768515312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2818764109184272091, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+  m_PrefabInstance: {fileID: 761232008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &768515318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768515312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swipeForce: 10
+  knockbackForce: 2.4
+--- !u!1 &772286494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1457284139666800432, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
+  m_PrefabInstance: {fileID: 2065100229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &772286500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772286494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swipeForce: 10
+  knockbackForce: 2.4
 --- !u!1001 &802952740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7086,10 +7170,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasajero rojo (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6238425078144362708, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2818764109184272091, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 604900778}
   m_SourcePrefab: {fileID: 100100000, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
 --- !u!1 &816215650
 GameObject:
@@ -7438,10 +7526,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasajero rojo (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6238425078144362708, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2818764109184272091, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1814444001}
   m_SourcePrefab: {fileID: 100100000, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
 --- !u!1001 &1033401935
 PrefabInstance:
@@ -7499,10 +7591,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7553720250505464018, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1457284139666800432, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 616345339}
   m_SourcePrefab: {fileID: 100100000, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
 --- !u!1 &1190638019
 GameObject:
@@ -8271,6 +8367,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481270913}
   m_CullTransparentMesh: 1
+--- !u!1 &1487923367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1457284139666800432, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
+  m_PrefabInstance: {fileID: 9045644520527223000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1487923373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487923367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swipeForce: 10
+  knockbackForce: 2.4
 --- !u!1 &1495816835
 GameObject:
   m_ObjectHideFlags: 0
@@ -13879,6 +13994,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Particles: {fileID: 1577869793}
+--- !u!1 &1801206848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2818764109184272091, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+  m_PrefabInstance: {fileID: 464235645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1801206854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801206848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swipeForce: 10
+  knockbackForce: 2.4
+--- !u!1 &1814443995 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2818764109184272091, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+  m_PrefabInstance: {fileID: 1003261647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1814444001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814443995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swipeForce: 10
+  knockbackForce: 2.4
 --- !u!1 &1826493432
 GameObject:
   m_ObjectHideFlags: 0
@@ -14202,6 +14355,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862011411}
   m_CullTransparentMesh: 1
+--- !u!1 &1879834237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1457284139666800432, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
+  m_PrefabInstance: {fileID: 1916412698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1879834243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879834237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swipeForce: 10
+  knockbackForce: 2.4
 --- !u!1001 &1916412698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14258,10 +14430,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7553720250505464018, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1457284139666800432, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1879834243}
   m_SourcePrefab: {fileID: 100100000, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
 --- !u!1 &1925811252
 GameObject:
@@ -14600,6 +14776,25 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 0
+--- !u!1 &2012747827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2818764109184272091, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+  m_PrefabInstance: {fileID: 5456246344937621556}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2012747833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012747827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swipeForce: 10
+  knockbackForce: 2.4
 --- !u!1 &2031481907
 GameObject:
   m_ObjectHideFlags: 0
@@ -14726,10 +14921,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7553720250505464018, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1457284139666800432, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 772286500}
   m_SourcePrefab: {fileID: 100100000, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
 --- !u!1 &2105196390
 GameObject:
@@ -14895,10 +15094,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pasajero rojo
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6238425078144362708, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2818764109184272091, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2012747833}
   m_SourcePrefab: {fileID: 100100000, guid: f2b86d6e21a5370478d18de2827cdc3b, type: 3}
 --- !u!1001 &9045644520527223000
 PrefabInstance:
@@ -14956,8 +15159,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7553720250505464018, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1457284139666800432, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1487923373}
   m_SourcePrefab: {fileID: 100100000, guid: c6c733e568d8b734b9a2ae3b8573b596, type: 3}
