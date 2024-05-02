@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7730494217894756016}
   - component: {fileID: 4889067732400964172}
   - component: {fileID: 5069946470370020440}
-  - component: {fileID: 6238425078144362708}
+  - component: {fileID: 551597735173150289}
   m_Layer: 0
   m_Name: Pasajero rojo
   m_TagString: RedPassenger
@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7730494217894756016
 SpriteRenderer:
@@ -159,7 +159,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6238425078144362708
+--- !u!114 &551597735173150289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,6 +168,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2818764109184272091}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2104e66c95cd87c459b6b9b6df87af8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  swipeForce: 10
+  knockbackForce: 2.4

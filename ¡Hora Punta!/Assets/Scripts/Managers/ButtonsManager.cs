@@ -10,7 +10,7 @@ public class ButtonsManager : MonoBehaviour
 
     public AudioManager audioManager;
 
-    public void Play()
+    public void PlayOrRestart()
     {
         SceneManager.LoadScene("Test");
     }
@@ -22,6 +22,11 @@ public class ButtonsManager : MonoBehaviour
 
         panel.SetActive(true);
         audioManager.PlaySoundButton(); 
+    }
+
+    public void ReturnToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void Quit()

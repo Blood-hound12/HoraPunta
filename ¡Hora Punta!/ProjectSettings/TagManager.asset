@@ -8,6 +8,7 @@ TagManager:
   - GreenDoor
   - GreenPassenger
   - RedPassenger
+  - Obstacle
   layers:
   - Default
   - TransparentFX

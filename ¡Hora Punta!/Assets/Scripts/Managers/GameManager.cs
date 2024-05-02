@@ -10,17 +10,23 @@ public class GameManager : MonoBehaviour
 
     public float FailScore = 0;
 
-    public TextMeshProUGUI ScoreText;
-    public TextMeshProUGUI HighScoreText;
+    [SerializeField] private TextMeshProUGUI ScoreText;
+    [SerializeField] private TextMeshProUGUI HighScoreText;
 
-    public GameObject life1;
-    public GameObject life2;
-    public GameObject life3;
+    public GameObject[] lives;
+    [SerializeField] private GameObject LoseAnim;
+    [SerializeField] private GameObject PanelLose;
+
+    public GameObject BaseObstacle;
+    public Transform[] ObstacleOrigins;
 
     public static GameManager current;
+    [SerializeField] private GameObject deactivables;
 
     private void Awake()
     {
+        Time.timeScale = 1;
+
         updateHighScore();
         
         if(current == null)
@@ -36,10 +42,6 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         ScoreText.text = "Score: " + SuccessScore;
-        if(FailScore >=3)
-        {
-            SceneManager.LoadScene("Test");
-        }
     }
 
     public void AddScore()
@@ -66,17 +68,30 @@ public class GameManager : MonoBehaviour
     {
         FailScore += 1;
 
-        if (life3.gameObject.activeSelf == true)
+        if (lives[0].activeSelf == true)
         {
-            life3.gameObject.SetActive(false);
+            lives[0].SetActive(false);
+            Instantiate(BaseObstacle, ObstacleOrigins[0].position, Quaternion.identity);
         }
-        else if (life2.gameObject.activeSelf == true)
+        else if (lives[1].activeSelf == true)
         {
-            life2.gameObject.SetActive(false);
+            lives[1].SetActive(false);
+            Instantiate(BaseObstacle, ObstacleOrigins[1].position, Quaternion.identity);
+            Instantiate(BaseObstacle, ObstacleOrigins[2].position, Quaternion.identity);
         }
-        else if (life1.gameObject.activeSelf == true)
+        else if (lives[2].activeSelf == true)
         {
-            life1.gameObject.SetActive(false);
+            lives[2].SetActive(false);
+            LoseAnim.SetActive(true);
+            deactivables.SetActive(false);
+            StartCoroutine(RestartGame());
         }
+    }
+
+    IEnumerator RestartGame()
+    {
+        yield return new WaitForSeconds(2);
+        PanelLose.SetActive(true);
+        Time.timeScale = 0;
     }
 }

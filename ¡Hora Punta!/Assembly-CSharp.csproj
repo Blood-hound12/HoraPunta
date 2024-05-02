@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Mechanics\DetectorRed.cs" />
     <Compile Include="Assets\Scripts\Mechanics\DetectorGreen.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\ObstacleBehavior.cs" />
     <Compile Include="Assets\Scripts\SpawnCat.cs" />
   </ItemGroup>
   <ItemGroup>

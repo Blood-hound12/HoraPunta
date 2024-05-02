@@ -56,5 +56,9 @@ public class SwipeController : MonoBehaviour
             rb.AddForce(force, ForceMode2D.Impulse);
             StartCoroutine(MovementCooldown());
         }
+        if(collision.transform.CompareTag("Obstacle"))
+        {
+            StartCoroutine(MovementCooldown());
+        }
     }
 }
