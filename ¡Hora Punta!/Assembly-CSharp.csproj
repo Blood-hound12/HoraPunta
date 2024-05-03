@@ -60,12 +60,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Mechanics\SwipeController.cs" />
+    <Compile Include="Assets\Scripts\Managers\DifficultyManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ButtonsManager.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Mechanics\DetectorRed.cs" />
     <Compile Include="Assets\Scripts\Mechanics\DetectorGreen.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\PassengerBehavior.cs" />
     <Compile Include="Assets\Scripts\Mechanics\ObstacleBehavior.cs" />
-    <Compile Include="Assets\Scripts\SpawnCat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\External Assets\TextMesh Pro\Shaders\TMPro.cginc" />

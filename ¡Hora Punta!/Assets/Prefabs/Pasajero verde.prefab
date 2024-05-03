@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2160879214931130827}
   - component: {fileID: 5119529603639934169}
   - component: {fileID: 6791246854683906999}
+  - component: {fileID: 1440636396031900805}
   m_Layer: 0
   m_Name: Pasajero verde
   m_TagString: GreenPassenger
@@ -173,3 +174,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swipeForce: 10
   knockbackForce: 2.4
+--- !u!114 &1440636396031900805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457284139666800432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f08d3047dbc9944acf328d45741bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 7656156035999276700, guid: 1feac17561d2ac6418c75b52989178ed, type: 3}
