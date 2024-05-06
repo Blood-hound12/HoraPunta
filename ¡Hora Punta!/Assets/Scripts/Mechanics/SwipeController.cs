@@ -43,7 +43,7 @@ public class SwipeController : MonoBehaviour
 
     private IEnumerator MovementCooldown()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.8f);
         rb.velocity = Vector2.zero;
     }
 

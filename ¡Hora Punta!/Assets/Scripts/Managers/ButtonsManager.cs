@@ -7,8 +7,14 @@ public class ButtonsManager : MonoBehaviour
 {
     public GameObject mainPanel;
     public GameObject optionsPanel;
+    public GameObject HowToPlayPanel;
 
     public AudioManager audioManager;
+
+    private void Awake()
+    {
+        HowToPlayPanel.SetActive(true);
+    }
 
     public void PlayOrRestart()
     {
@@ -27,6 +33,12 @@ public class ButtonsManager : MonoBehaviour
     public void ReturnToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void QuitHowToPlay()
+    {
+        HowToPlayPanel.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void Quit()
