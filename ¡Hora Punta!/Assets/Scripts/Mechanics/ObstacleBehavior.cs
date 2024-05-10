@@ -34,6 +34,5 @@ public class ObstacleBehavior : MonoBehaviour
     {
         yield return new WaitForSeconds(2.2f);
         rb.velocity = Vector2.zero;
-        rb.isKinematic = true;
     }
 }
