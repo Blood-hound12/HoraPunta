@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class ButtonsManager : MonoBehaviour
 {
-    public GameObject mainPanel;
     public GameObject optionsPanel;
     public GameObject HowToPlayPanel;
 
@@ -21,13 +20,17 @@ public class ButtonsManager : MonoBehaviour
         SceneManager.LoadScene("Test");
     }
 
-    public void OpenOptions(GameObject panel)
+    public void OpenOptions()
     {
-        mainPanel.SetActive(false);
-        optionsPanel.SetActive(false);
-
-        panel.SetActive(true);
+        optionsPanel.SetActive(true);
+        Time.timeScale = 0;
         audioManager.PlaySoundButton(); 
+    }
+
+    public void CloseOptions()
+    {
+        optionsPanel.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void ReturnToMainMenu()

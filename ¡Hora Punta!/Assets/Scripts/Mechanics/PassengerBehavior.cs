@@ -23,20 +23,21 @@ public class PassengerBehavior : MonoBehaviour
 
     public void Movement()
     {
-        TimerForStop = Random.Range(3.5f, 5.5f);
+        TimerForStop = Random.Range(3.5f, 5f);
 
         if (isMoving)
         {
             Vector2 direction = (Target.transform.position - transform.position).normalized;
             rb.velocity = direction * 4.5f;
-            StartCoroutine(Stop());
+
         }
     }
 
     IEnumerator Stop()
     {
         yield return new WaitForSeconds(TimerForStop);
-        rb.velocity = Vector2.zero;
         isMoving = false;
+        rb.velocity = Vector2.zero;
+        
     }
 }
