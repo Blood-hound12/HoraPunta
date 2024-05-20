@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PassengerBehavior : MonoBehaviour
@@ -29,7 +30,6 @@ public class PassengerBehavior : MonoBehaviour
         {
             Vector2 direction = (Target.transform.position - transform.position).normalized;
             rb.velocity = direction * 4.5f;
-
         }
     }
 
@@ -38,6 +38,5 @@ public class PassengerBehavior : MonoBehaviour
         yield return new WaitForSeconds(TimerForStop);
         isMoving = false;
         rb.velocity = Vector2.zero;
-        
     }
 }

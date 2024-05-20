@@ -173,8 +173,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swipeForce: 10
-  knockbackForce: 2.4
-  cooldownDuration: 0.1
 --- !u!114 &-1989611171096680244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,3 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 7656156035999276700, guid: 1feac17561d2ac6418c75b52989178ed, type: 3}
+  xMinimum: -12
+  xMaximum: 13.1
+  yMinimum: 0
+  yMaximum: 0

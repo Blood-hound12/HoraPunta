@@ -37,7 +37,6 @@ public class SwipeController : MonoBehaviour
                 isSwiping = false;
             }
         }
-
     }
 
     //private Rigidbody2D rb;
