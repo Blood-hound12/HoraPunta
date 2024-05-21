@@ -12,9 +12,13 @@ public class PassengerBehavior : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private DifficultyManager difficultyManager;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        difficultyManager = FindObjectOfType<DifficultyManager>();
+        difficultyManager.AddCatToCounter();
     }
 
     private void Start()

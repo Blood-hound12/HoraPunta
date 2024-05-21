@@ -4,25 +4,26 @@ using UnityEngine;
 
 public class DetectorRed : MonoBehaviour
 {
-    public GameObject Particles;
     private GameManager gameManager;
+    private DifficultyManager difficultyManager;
     private void Awake()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        Particles.SetActive(false);
+        difficultyManager = GameObject.Find("DifficultyManager").GetComponent<DifficultyManager>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "GreenPassenger")
         {
             Destroy(collision.gameObject);
-            Particles.SetActive(true);
             StartCoroutine(Wait());
+            difficultyManager.RemoveCatFromCounter();
         }
         if (collision.gameObject.tag == "RedPassenger")
         {
             gameManager.AddScore();
             Destroy(collision.gameObject);
+            difficultyManager.RemoveCatFromCounter();
         }
     }
 
@@ -30,6 +31,5 @@ public class DetectorRed : MonoBehaviour
     {
         yield return new WaitForSeconds(0.35f);
         gameManager.AddFailScore();
-        Particles.SetActive(false);
     }
 }
