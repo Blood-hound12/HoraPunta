@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour
     public GameObject BaseObstacle;
     public Transform[] ObstacleOrigins;
 
-    public static GameManager current;
     [SerializeField] private GameObject deactivables;
 
     private void Awake()
@@ -28,15 +27,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0;
 
         updateHighScore();
-        
-        if(current == null)
-        {
-            current = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 
     void Update()

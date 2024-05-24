@@ -54,14 +54,14 @@ public class SwipeController : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-           Touch touch = Input.GetTouch(0);
+            Touch touch = Input.GetTouch(0);
 
             if (touch.phase == TouchPhase.Began)
             {
                 Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
                 if (GetComponent<Collider2D>().OverlapPoint(touchPos))
-               {
-                   startPos = touchPos;
+                {
+                    startPos = touchPos;
                     isSwiping = true;
                 }
             }
