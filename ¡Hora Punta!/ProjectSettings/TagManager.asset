@@ -9,6 +9,7 @@ TagManager:
   - GreenPassenger
   - RedPassenger
   - Obstacle
+  - GameZone
   layers:
   - Default
   - TransparentFX

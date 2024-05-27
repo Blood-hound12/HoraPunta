@@ -59,11 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\Mechanics\SwipeController.cs" />
     <Compile Include="Assets\Scripts\Managers\Destroyers.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\SlingShotController.cs" />
     <Compile Include="Assets\Scripts\Managers\DifficultyManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ButtonsManager.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Detector.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\SlingShotTouch.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\ShoplifterBehavior.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Mechanics\PassengerBehavior.cs" />
     <Compile Include="Assets\Scripts\Mechanics\ObstacleBehavior.cs" />

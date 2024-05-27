@@ -7,10 +7,12 @@ public class DifficultyManager : MonoBehaviour
     [SerializeField] private GameObject[] HordesPrefabLevel1;
     [SerializeField] private GameObject[] HordesPrefabLevel2;
     [SerializeField] private GameObject[] HordesPrefabLevel3;
+    [SerializeField] private GameObject[] ShoplifterPrefab;
     [SerializeField] private Transform[] SpawnOrigins;
 
     [SerializeField] private float MinimumSpawnTimeLevel1, MaximumSpawnTimeLevel1, MinimumSpawnTimeLevel2, MaximumSpawnTimeLevel2, MinimumSpawnTimeLevel3, MaximumSpawnTimeLevel3;
 
+    [SerializeField] private float MinimumShopLifterTimeLevel1, MaximumShopLifterTimeLevel1, MinimumShopLifterTimeLevel2, MaximumShopLifterLevel2, MinimumShopLifterTimeLevel3, MaximumShopLifterTimeLevel3;
 
     //private float gameCounter;
     public int CatsCounter;
@@ -49,7 +51,7 @@ public class DifficultyManager : MonoBehaviour
 
     private void UpdateDifficultyLevel()
     {
-        if (gameManager.SuccessScore >= 240)
+        if (gameManager.SuccessScore >= 50)
         {
             difficultyLevel = 3;
             Debug.Log("Difficulty Level: " + difficultyLevel);
