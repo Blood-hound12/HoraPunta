@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class ObstacleBehavior : MonoBehaviour
+public class MusicCatBehavior : MonoBehaviour
 {
     private Rigidbody2D rb;
-    [SerializeField] private float knockbackForce = 3f;
-    [SerializeField] private float movementSpeed = 3f;
+    [SerializeField] private float knockbackForce = 2.2f;
+    [SerializeField] private float movementSpeed = 1.5f;
+
+    bool Ready = false;
 
     private void Awake()
     {
@@ -17,6 +18,15 @@ public class ObstacleBehavior : MonoBehaviour
     {
         rb.AddForce(Vector2.up * movementSpeed, ForceMode2D.Impulse);
         StartCoroutine(StopMovement());
+        StartCoroutine(RetireMusicCat());
+    }
+
+    private void Update()
+    {
+        if (Ready)
+        {
+            rb.isKinematic = true;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -30,9 +40,19 @@ public class ObstacleBehavior : MonoBehaviour
         }
     }
 
+    IEnumerator RetireMusicCat()
+    {
+        float spawnTime = Random.Range(15, 20);
+        float velocity = Random.Range(-5f, 5f);
+        yield return new WaitForSeconds(spawnTime);
+        rb.isKinematic = false;
+        transform.Translate(Vector2.right * velocity);
+    }
+
     IEnumerator StopMovement()
     {
-        yield return new WaitForSeconds(2.2f);
+        yield return new WaitForSeconds(1.6f);
         rb.velocity = Vector2.zero;
+        Ready = true;
     }
 }

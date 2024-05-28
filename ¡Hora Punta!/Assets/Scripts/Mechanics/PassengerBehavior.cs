@@ -31,7 +31,7 @@ public class PassengerBehavior : MonoBehaviour
 
     public void Movement()
     {
-        TimerForStop = Random.Range(0.6f, 1.2f);
+        TimerForStop = Random.Range(1f, 1.1f);
 
         if (isMoving)
         {

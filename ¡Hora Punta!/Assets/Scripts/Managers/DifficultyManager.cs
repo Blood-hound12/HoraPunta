@@ -9,12 +9,10 @@ public class DifficultyManager : MonoBehaviour
     [SerializeField] private GameObject[] HordesPrefabLevel3;
     [SerializeField] private GameObject[] ShoplifterPrefab;
     [SerializeField] private Transform[] SpawnOrigins;
+    [SerializeField] private Transform[] ShoplifterSpawnOrigins;
 
     [SerializeField] private float MinimumSpawnTimeLevel1, MaximumSpawnTimeLevel1, MinimumSpawnTimeLevel2, MaximumSpawnTimeLevel2, MinimumSpawnTimeLevel3, MaximumSpawnTimeLevel3;
-
-    [SerializeField] private float MinimumShopLifterTimeLevel1, MaximumShopLifterTimeLevel1, MinimumShopLifterTimeLevel2, MaximumShopLifterLevel2, MinimumShopLifterTimeLevel3, MaximumShopLifterTimeLevel3;
-
-    //private float gameCounter;
+    [SerializeField] private float MinimumShoplifterSpawnTime, MaximumShoplifterSpawnTime;
     public int CatsCounter;
     private int difficultyLevel = 1;
     private GameManager gameManager;
@@ -29,6 +27,7 @@ public class DifficultyManager : MonoBehaviour
     private void Start()
     {
         StartCoroutine(SpawnCats());
+        StartCoroutine(SpawnShoplifters());
     }
 
     public void AddCatToCounter()
@@ -45,7 +44,6 @@ public class DifficultyManager : MonoBehaviour
     void Update()
     {
         //gameCounter += Time.deltaTime;
-
         UpdateDifficultyLevel();
     }
 
@@ -66,6 +64,23 @@ public class DifficultyManager : MonoBehaviour
             difficultyLevel = 1;
         }
     }
+
+    private IEnumerator SpawnShoplifters()
+    {
+        while (true)
+        {
+            float spawnTime = Random.Range(MinimumShoplifterSpawnTime, MaximumShoplifterSpawnTime);
+            yield return new WaitForSeconds(spawnTime);
+
+            int randomSpawnOriginIndex = Random.Range(0, ShoplifterSpawnOrigins.Length);
+            Transform spawnOrigin = ShoplifterSpawnOrigins[randomSpawnOriginIndex];
+
+            int randomShoplifterIndex = Random.Range(0, ShoplifterPrefab.Length);
+            Instantiate(ShoplifterPrefab[randomShoplifterIndex], spawnOrigin.position, Quaternion.identity);
+        }
+    }
+
+
 
     private IEnumerator SpawnCats()
     {
