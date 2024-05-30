@@ -46,7 +46,7 @@ public class MusicCatBehavior : MonoBehaviour
         float velocity = Random.Range(-5f, 5f);
         yield return new WaitForSeconds(spawnTime);
         rb.isKinematic = false;
-        transform.Translate(Vector2.right * velocity);
+        rb.velocity = new Vector2(velocity, rb.velocity.y);
     }
 
     IEnumerator StopMovement()

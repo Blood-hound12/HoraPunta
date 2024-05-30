@@ -8,11 +8,14 @@ public class DifficultyManager : MonoBehaviour
     [SerializeField] private GameObject[] HordesPrefabLevel2;
     [SerializeField] private GameObject[] HordesPrefabLevel3;
     [SerializeField] private GameObject[] ShoplifterPrefab;
+    [SerializeField] private GameObject[] MusicianPrefab;
+    [SerializeField] private Transform[] MusicianSpawnOrigins;
     [SerializeField] private Transform[] SpawnOrigins;
     [SerializeField] private Transform[] ShoplifterSpawnOrigins;
 
     [SerializeField] private float MinimumSpawnTimeLevel1, MaximumSpawnTimeLevel1, MinimumSpawnTimeLevel2, MaximumSpawnTimeLevel2, MinimumSpawnTimeLevel3, MaximumSpawnTimeLevel3;
     [SerializeField] private float MinimumShoplifterSpawnTime, MaximumShoplifterSpawnTime;
+    [SerializeField] private float MinimumMusicianSpawnTime = 30f, MaximumMusicianSpawnTime = 50f;
     public int CatsCounter;
     private int difficultyLevel = 1;
     private GameManager gameManager;
@@ -28,6 +31,7 @@ public class DifficultyManager : MonoBehaviour
     {
         StartCoroutine(SpawnCats());
         StartCoroutine(SpawnShoplifters());
+        StartCoroutine(SpawnMusicians());
     }
 
     public void AddCatToCounter()
@@ -72,15 +76,16 @@ public class DifficultyManager : MonoBehaviour
             float spawnTime = Random.Range(MinimumShoplifterSpawnTime, MaximumShoplifterSpawnTime);
             yield return new WaitForSeconds(spawnTime);
 
-            int randomSpawnOriginIndex = Random.Range(0, ShoplifterSpawnOrigins.Length);
-            Transform spawnOrigin = ShoplifterSpawnOrigins[randomSpawnOriginIndex];
+            if (!AreMusiciansOrShopliftersPresent("Musician"))
+            {
+                int randomSpawnOriginIndex = Random.Range(0, ShoplifterSpawnOrigins.Length);
+                Transform spawnOrigin = ShoplifterSpawnOrigins[randomSpawnOriginIndex];
 
-            int randomShoplifterIndex = Random.Range(0, ShoplifterPrefab.Length);
-            Instantiate(ShoplifterPrefab[randomShoplifterIndex], spawnOrigin.position, Quaternion.identity);
+                int randomShoplifterIndex = Random.Range(0, ShoplifterPrefab.Length);
+                Instantiate(ShoplifterPrefab[randomShoplifterIndex], spawnOrigin.position, Quaternion.identity);
+            }
         }
     }
-
-
 
     private IEnumerator SpawnCats()
     {
@@ -126,10 +131,32 @@ public class DifficultyManager : MonoBehaviour
         }
     }
 
+    private IEnumerator SpawnMusicians()
+    {
+        while (true)
+        {
+            float spawnTime = Random.Range(MinimumMusicianSpawnTime, MaximumMusicianSpawnTime);
+            yield return new WaitForSeconds(spawnTime);
+
+            if (!AreMusiciansOrShopliftersPresent("Shoplifter"))
+            {
+                int randomSpawnOriginIndex = Random.Range(0, MusicianSpawnOrigins.Length);
+                Transform spawnOrigin = MusicianSpawnOrigins[randomSpawnOriginIndex];
+
+                int randomMusicianIndex = Random.Range(0, MusicianPrefab.Length);
+                Instantiate(MusicianPrefab[randomMusicianIndex], spawnOrigin.position, Quaternion.identity);
+            }
+        }
+    }
+
     private void SpawnHorde(GameObject[] hordePrefabs, int spawnOriginIndex)
     {
         int randomHordeIndex = Random.Range(0, hordePrefabs.Length);
         Instantiate(hordePrefabs[randomHordeIndex], SpawnOrigins[spawnOriginIndex].position, Quaternion.identity);
+    }
+    private bool AreMusiciansOrShopliftersPresent(string tag)
+    {
+        return GameObject.FindGameObjectWithTag(tag) != null;
     }
 
     private float GetSpawnTime()

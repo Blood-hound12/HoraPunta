@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8243902425986343152}
   m_Layer: 0
   m_Name: Shoplifter1
-  m_TagString: Untagged
+  m_TagString: Shoplifter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
