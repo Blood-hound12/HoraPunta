@@ -9,6 +9,11 @@ public class DifficultyManager : MonoBehaviour
     [SerializeField] private GameObject[] HordesPrefabLevel3;
     [SerializeField] private GameObject[] ShoplifterPrefab;
     [SerializeField] private GameObject[] MusicianPrefab;
+    [SerializeField] private GameObject[] VagonsPrefabLevel1;
+    [SerializeField] private GameObject[] VagonsPrefabLevel2;
+    [SerializeField] private GameObject[] VagonsPrefabLevel3;
+
+    [SerializeField] private Transform VagonOrigin;
     [SerializeField] private Transform[] MusicianSpawnOrigins;
     [SerializeField] private Transform[] SpawnOrigins;
     [SerializeField] private Transform[] ShoplifterSpawnOrigins;
@@ -16,10 +21,13 @@ public class DifficultyManager : MonoBehaviour
     [SerializeField] private float MinimumSpawnTimeLevel1, MaximumSpawnTimeLevel1, MinimumSpawnTimeLevel2, MaximumSpawnTimeLevel2, MinimumSpawnTimeLevel3, MaximumSpawnTimeLevel3;
     [SerializeField] private float MinimumShoplifterSpawnTime, MaximumShoplifterSpawnTime;
     [SerializeField] private float MinimumMusicianSpawnTime = 30f, MaximumMusicianSpawnTime = 50f;
+    [SerializeField] private float MinimumVagonSpawnTime = 1f, MaximumVagonSpawnTime = 2f;
+
     public int CatsCounter;
     private int difficultyLevel = 1;
     private GameManager gameManager;
     private bool spawning = true;
+    private GameObject currentVagon = null;
 
     // Start is called before the first frame update
     void Awake()
@@ -32,6 +40,7 @@ public class DifficultyManager : MonoBehaviour
         StartCoroutine(SpawnCats());
         StartCoroutine(SpawnShoplifters());
         StartCoroutine(SpawnMusicians());
+        StartCoroutine(SpawnVagons());
     }
 
     public void AddCatToCounter()
@@ -68,6 +77,41 @@ public class DifficultyManager : MonoBehaviour
             difficultyLevel = 1;
         }
     }
+
+    private IEnumerator SpawnVagons()
+    {
+        currentVagon = Instantiate(VagonsPrefabLevel1[0], VagonOrigin.position, Quaternion.identity);
+
+        while (spawning)
+        {
+            if (currentVagon == null)
+            {
+                float spawnTime = Random.Range(MinimumVagonSpawnTime, MaximumVagonSpawnTime);
+                yield return new WaitForSeconds(spawnTime);
+
+                GameObject[] vagonArray = null;
+
+                switch (difficultyLevel)
+                {
+                    case 1:
+                        vagonArray = VagonsPrefabLevel1;
+                        break;
+                    case 2:
+                        vagonArray = VagonsPrefabLevel2;
+                        break;
+                    case 3:
+                        vagonArray = VagonsPrefabLevel3;
+                        break;
+                }
+
+                int randomVagonIndex = Random.Range(0, vagonArray.Length);
+                currentVagon = Instantiate(vagonArray[randomVagonIndex], VagonOrigin.position, Quaternion.identity);
+            }
+
+            yield return null;
+        }
+    }
+
 
     private IEnumerator SpawnShoplifters()
     {

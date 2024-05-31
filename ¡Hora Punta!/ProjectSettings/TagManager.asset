@@ -12,6 +12,9 @@ TagManager:
   - GameZone
   - Musician
   - Shoplifter
+  - AntisuicideBar
+  - BluePassenger
+  - YellowPassenger
   layers:
   - Default
   - TransparentFX

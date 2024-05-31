@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject deactivables;
 
+    public GameObject emergencyLine;
+
     private void Awake()
     {
         Time.timeScale = 0;

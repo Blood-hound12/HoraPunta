@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Mechanics\ShoplifterBehavior.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Mechanics\MusicCatBehavior.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\VagonBehavior.cs" />
     <Compile Include="Assets\Scripts\Mechanics\PassengerBehavior.cs" />
     <Compile Include="Assets\Scripts\Mechanics\ObstacleBehavior.cs" />
   </ItemGroup>

@@ -13,6 +13,8 @@ public class PassengerBehavior : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D collider;
 
+    [SerializeField] float passengerVelocity = 7f;
+
     private DifficultyManager difficultyManager;
 
     private void Awake()
@@ -31,13 +33,13 @@ public class PassengerBehavior : MonoBehaviour
 
     public void Movement()
     {
-        TimerForStop = Random.Range(1f, 1.1f);
+        TimerForStop = Random.Range(0.6f, 0.8f);
 
         if (isMoving)
         {
             Vector2 direction = (Target.transform.position - transform.position).normalized;
-            rb.velocity = direction * 6f;
-            StartCoroutine(Stop());
+            rb.velocity = direction * passengerVelocity;
+            StartCoroutine(ActivateCollider());
         }
     }
 
@@ -45,15 +47,14 @@ public class PassengerBehavior : MonoBehaviour
     {
         if (other.transform.tag == "GameZone")
         {
-            collider.enabled = true;
+            isMoving = false;
+            rb.velocity = Vector2.zero;
         }
     }
 
-    IEnumerator Stop()
+    IEnumerator ActivateCollider()
     {
         yield return new WaitForSeconds(TimerForStop);
         collider.enabled = true;
-        isMoving = false;
-        rb.velocity = Vector2.zero;
     }
 }

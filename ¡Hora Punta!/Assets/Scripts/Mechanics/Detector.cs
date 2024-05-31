@@ -6,7 +6,7 @@ public class Detector : MonoBehaviour
 {
     private GameManager gameManager;
     private DifficultyManager difficultyManager;
-    public string detectorType; // "Green" or "Red"
+    public string detectorType; // "Green" or "Red" or "Blue" or "Yellow"
 
     private void Awake()
     {
@@ -28,6 +28,20 @@ public class Detector : MonoBehaviour
             Destroy(collision.gameObject);
             difficultyManager.RemoveCatFromCounter();
         }
+
+        else if (collision.gameObject.tag == "BluePassenger")
+        {
+            HandleBluePassenger();
+            Destroy(collision.gameObject);
+            difficultyManager.RemoveCatFromCounter();
+        }
+
+        else if (collision.gameObject.tag == "YellowPassenger")
+        {
+            HandleYellowPassenger();
+            Destroy(collision.gameObject);
+            difficultyManager.RemoveCatFromCounter();
+        }
     }
 
     private void HandleGreenPassenger()
@@ -40,6 +54,54 @@ public class Detector : MonoBehaviour
         {
             StartCoroutine(WaitAndAddFailScore());
         }
+        else if (detectorType == "Blue")
+        {
+            StartCoroutine(WaitAndAddFailScore());
+        }
+        else if (detectorType == "Yellow")
+        {
+            StartCoroutine(WaitAndAddFailScore());
+        }
+    }
+
+    private void HandleBluePassenger()
+    {
+        if (detectorType == "Blue")
+        {
+            gameManager.AddScore();
+        }
+        else if (detectorType == "Green")
+        {
+            StartCoroutine(WaitAndAddFailScore());
+        }
+        else if (detectorType == "Red")
+        {
+            StartCoroutine(WaitAndAddFailScore());
+        }
+        else if (detectorType == "Yellow")
+        {
+            StartCoroutine(WaitAndAddFailScore());
+        }
+    }
+
+    private void HandleYellowPassenger()
+    {
+        if (detectorType == "Yellow")
+        {
+            gameManager.AddScore();
+        }
+        else if (detectorType == "Red")
+        {
+            StartCoroutine(WaitAndAddFailScore());
+        }
+        else if (detectorType == "Blue")
+        {
+            StartCoroutine(WaitAndAddFailScore());
+        }
+        else if (detectorType == "Green")
+        {
+            StartCoroutine(WaitAndAddFailScore());
+        }
     }
 
     private void HandleRedPassenger()
@@ -49,6 +111,14 @@ public class Detector : MonoBehaviour
             gameManager.AddScore();
         }
         else if (detectorType == "Green")
+        {
+            StartCoroutine(WaitAndAddFailScore());
+        }
+        else if (detectorType == "Blue")
+        {
+            StartCoroutine(WaitAndAddFailScore());
+        }
+        else if (detectorType == "Yellow")
         {
             StartCoroutine(WaitAndAddFailScore());
         }

@@ -8,6 +8,8 @@ public class MusicCatBehavior : MonoBehaviour
     [SerializeField] private float knockbackForce = 2.2f;
     [SerializeField] private float movementSpeed = 1.5f;
 
+    public GameObject bigCollider;
+
     bool Ready = false;
 
     private void Awake()
@@ -31,13 +33,10 @@ public class MusicCatBehavior : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("RedPassenger") || collision.gameObject.CompareTag("GreenPassenger"))
-        {
-            Rigidbody2D PassengerRb = collision.gameObject.GetComponent<Rigidbody2D>();
-            Vector2 difference = (transform.position - collision.transform.position).normalized;
-            Vector2 force = difference * -knockbackForce;
-            PassengerRb.AddForce(force, ForceMode2D.Impulse);
-        }
+        Rigidbody2D PassengerRb = collision.gameObject.GetComponent<Rigidbody2D>();
+        Vector2 difference = (transform.position - collision.transform.position).normalized;
+        Vector2 force = difference * -knockbackForce;
+        PassengerRb.AddForce(force, ForceMode2D.Impulse);
     }
 
     IEnumerator RetireMusicCat()
@@ -46,6 +45,7 @@ public class MusicCatBehavior : MonoBehaviour
         float velocity = Random.Range(-5f, 5f);
         yield return new WaitForSeconds(spawnTime);
         rb.isKinematic = false;
+        bigCollider.SetActive(false);
         rb.velocity = new Vector2(velocity, rb.velocity.y);
     }
 
