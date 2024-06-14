@@ -19,7 +19,7 @@ public class VagonBehavior : MonoBehaviour
 
     IEnumerator RetireVagon()
     {
-        float lifeTime = Random.Range(25, 35);
+        float lifeTime = Random.Range(15, 20);
         yield return new WaitForSeconds(lifeTime);
         animator.SetBool("escaping", true);
         yield return new WaitForSeconds(1);
