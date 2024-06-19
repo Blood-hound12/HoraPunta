@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -213,8 +213,8 @@ MonoBehaviour:
     y: 0
     width: 326
     height: 623
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -438,20 +438,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 666e0000
-      m_LastClickedID: 28262
-      m_ExpandedIDs: 82f2ffff9ef2ffffacf2ffffbcf2ffffcaf2ffffd8f2ffffe6f2fffff4f2fffffaf2ffff
+      m_SelectedIDs: 3a620000
+      m_LastClickedID: 25146
+      m_ExpandedIDs: 02b9ffff04b9ffff08b9ffff0cb9ffffb6bdffff1cd6ffff0efbffffe86100007c620000e26200007c6300000a640000a4640000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Pasajero rojo (8)
-        m_OriginalName: Pasajero rojo (8)
+        m_Name: Honorificos
+        m_OriginalName: Honorificos
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -3368
+        m_UserData: -18164
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -833,9 +833,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.34000015, y: -1.1400001, z: -8.96}
+    m_Target: {x: 465.19147, y: 625.56616, z: -14.390688}
     speed: 2
-    m_Value: {x: 0.34000003, y: -1.1400002, z: -8.959999}
+    m_Value: {x: 465.19147, y: 625.56616, z: -14.390688}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -885,9 +885,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 12.124355
+    m_Target: 595.5064
     speed: 2
-    m_Value: 12.124355
+    m_Value: 595.5064
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1061,7 +1061,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts/Managers
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts/Managers
   m_LastFoldersGridSize: 68
   m_LastProjectPath: C:\Users\marce\OneDrive\Documentos\GameDev\Proyectos\Unity\Prototypes\Hora
     Punta
@@ -1077,9 +1077,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c47a0000
-    m_LastClickedID: 31428
-    m_ExpandedIDs: 00000000a67a0000c87a000000ca9a3b
+    m_SelectedIDs: b67f0000
+    m_LastClickedID: 32694
+    m_ExpandedIDs: 00000000027000002670000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1107,7 +1107,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a67a0000
+    m_ExpandedIDs: 0000000002700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300009e5800003a430000d2430000d64300005c4300006a430000e658000028f3ffff644400006e440000484400005c440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1233,7 +1233,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -36844
+  m_LastSelectedObjectID: -18172
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1275,7 +1275,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 587
+  m_LastVerticalScrollValue: 261
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

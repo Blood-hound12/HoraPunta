@@ -7,15 +7,11 @@ public class ButtonsManager : MonoBehaviour
 {
     public GameObject optionsPanel;
     public GameObject creditsPanel;
-    public GameObject HowToPlayPanel;
-    public GameObject peopeoaudio;
+    public GameObject audioPanel;
+    public GameObject fundacionesPanel;
+    public GameObject ButtonsGroup;
 
     public AudioManager audioManager;
-
-    private void Awake()
-    {
-        HowToPlayPanel.SetActive(true);
-    }
 
     public void PlayOrRestart()
     {
@@ -35,37 +31,45 @@ public class ButtonsManager : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    public void OpenFundaciones()
+    {
+        fundacionesPanel.SetActive(true);
+        ButtonsGroup.SetActive(false);
+    }
+
     public void OpenSound()
     {
-        peopeoaudio.SetActive(true);
-        Time.timeScale = 0;
+        audioPanel.SetActive(true);
+        ButtonsGroup.SetActive(false);
     }
 
     public void CloseSound()
     {
-        peopeoaudio.SetActive(false);
-        Time.timeScale = 1;
+        audioPanel.SetActive(false);
+        ButtonsGroup.SetActive(true);
     }
 
     public void OpenCredits()
     {
         creditsPanel.SetActive(true);
+        ButtonsGroup.SetActive(false);
     }
 
     public void CloseCredits()
     {
+        ButtonsGroup.SetActive(true);
         creditsPanel.SetActive(false);
+    }
+
+    public void closeFundaciones()
+    {
+        fundacionesPanel.SetActive(false);
+        ButtonsGroup.SetActive(true);
     }
 
     public void ReturnToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
-    }
-
-    public void QuitHowToPlay()
-    {
-        HowToPlayPanel.SetActive(false);
-        Time.timeScale = 1;
     }
 
     public void Quit()

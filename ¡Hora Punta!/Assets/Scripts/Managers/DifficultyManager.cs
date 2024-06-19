@@ -32,6 +32,7 @@ public class DifficultyManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        Time.timeScale = 1;
         gameManager = FindObjectOfType<GameManager>();
     }
 
