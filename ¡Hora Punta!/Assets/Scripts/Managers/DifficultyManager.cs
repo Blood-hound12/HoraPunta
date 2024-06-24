@@ -66,12 +66,10 @@ public class DifficultyManager : MonoBehaviour
         if (gameManager.SuccessScore >= 50)
         {
             difficultyLevel = 3;
-            Debug.Log("Difficulty Level: " + difficultyLevel);
         }
         else if (gameManager.SuccessScore >= 25)
         {
             difficultyLevel = 2;
-            Debug.Log("Difficulty Level: " + difficultyLevel);
         }
         else
         {

@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 975fb006af8c15f4c8e6f8a71055f9bc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gatoviejoanim-Recuperado_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 176
+        width: 456
+        height: 727
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe1fa7b0fcc75145b602ed9506737b3
+      internalID: 1155257460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoviejoanim-Recuperado_8
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 184
+        width: 464
+        height: 715
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d59c6f02f9b03c48a403b33735aefed
+      internalID: 1162477424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoviejoanim-Recuperado_9
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 175
+        width: 457
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9739f8816bbe84cb8b4fd713bc45a5
+      internalID: -2065783540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoviejoanim-Recuperado_10
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 882
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19965da52052334584ad5486f676a2a
+      internalID: 584439724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoviejoanim-Recuperado_11
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 183
+        width: 454
+        height: 716
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c78efbf4c5f2224fa465afbde90a048
+      internalID: -82715393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoviejoanim-Recuperado_13
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 164
+        width: 454
+        height: 729
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c04cf3bbf7d4e047a083aa29296a4a3
+      internalID: -24134810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoviejoanim-Recuperado_17
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 550
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fb82cd3716d724181262b57ec9d0af
+      internalID: 1415504091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatoviejoanim-Recuperado_35
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 175
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec62046306e93640affba1150e469a8
+      internalID: 261402150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gatoviejoanim-Recuperado_0: 1204375120
+      gatoviejoanim-Recuperado_1: -338516183
+      gatoviejoanim-Recuperado_10: 584439724
+      gatoviejoanim-Recuperado_11: -82715393
+      gatoviejoanim-Recuperado_12: 722865692
+      gatoviejoanim-Recuperado_13: -24134810
+      gatoviejoanim-Recuperado_14: 860132444
+      gatoviejoanim-Recuperado_15: 1156389026
+      gatoviejoanim-Recuperado_16: -1544651963
+      gatoviejoanim-Recuperado_17: 1415504091
+      gatoviejoanim-Recuperado_18: -632048294
+      gatoviejoanim-Recuperado_19: -1014832632
+      gatoviejoanim-Recuperado_2: -216807833
+      gatoviejoanim-Recuperado_20: -243535134
+      gatoviejoanim-Recuperado_21: 623758647
+      gatoviejoanim-Recuperado_22: 992476182
+      gatoviejoanim-Recuperado_23: -235084115
+      gatoviejoanim-Recuperado_24: -1953540266
+      gatoviejoanim-Recuperado_25: -1230124706
+      gatoviejoanim-Recuperado_26: -338470960
+      gatoviejoanim-Recuperado_27: 1016007058
+      gatoviejoanim-Recuperado_28: 1546812294
+      gatoviejoanim-Recuperado_29: 643003274
+      gatoviejoanim-Recuperado_3: 1281607439
+      gatoviejoanim-Recuperado_30: 1854042571
+      gatoviejoanim-Recuperado_31: 233741426
+      gatoviejoanim-Recuperado_32: -2058550333
+      gatoviejoanim-Recuperado_33: 49742611
+      gatoviejoanim-Recuperado_34: 1727259731
+      gatoviejoanim-Recuperado_35: 261402150
+      gatoviejoanim-Recuperado_36: -1865353717
+      gatoviejoanim-Recuperado_37: -79294945
+      gatoviejoanim-Recuperado_4: -307891289
+      gatoviejoanim-Recuperado_5: -1251757435
+      gatoviejoanim-Recuperado_6: 710119984
+      gatoviejoanim-Recuperado_7: 1155257460
+      gatoviejoanim-Recuperado_8: 1162477424
+      gatoviejoanim-Recuperado_9: -2065783540
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

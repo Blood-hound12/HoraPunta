@@ -1,0 +1,891 @@
+fileFormatVersion: 2
+guid: 5729483bb5a7fee49ac3a2bb65b3a6df
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_0
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1150
+        width: 617
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643d515439276d04ba8dd4f5532557a5
+      internalID: -975630817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_1
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1150
+        width: 625
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343942eb2df5d0c4b91ccf329062d7af
+      internalID: -598168661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_3
+      rect:
+        serializedVersion: 2
+        x: 3837
+        y: 1177
+        width: 619
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ac1bda5e79cd6459c60a9fabafe778
+      internalID: 496672618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1151
+        width: 619
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d7c7bbcb5b1f24d861c04ea8f2b3cd
+      internalID: -828445388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_6
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1150
+        width: 621
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59880a01c3dc2324197c2119396cab76
+      internalID: -1795389717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_7
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 2141
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f490b55aa12418f44b5b3c4433b20136
+      internalID: 339949454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_10
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 1122
+        width: 659
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3fca3010c9d7b4592791e001fdc67e
+      internalID: -426643063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_15
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 1729
+        width: 4
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d9519353caaf745b8abaeb88efa47f
+      internalID: -931671066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_40
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 1159
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c568905a88f93df49b3657c9a119ae49
+      internalID: -1207659757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_41
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1167
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c405482e0723e4680a7902b7c99366
+      internalID: -1350929582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_42
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 1150
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc5f760a11bda64db58654b903466e9
+      internalID: -1295961095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_44
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 1160
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a28833c26aee24c98676d140bd88e6
+      internalID: 1144126502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_45
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 1164
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ebfc9251ddf1540bd741a3aed7115f
+      internalID: -1925014977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_47
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 1153
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a83e1ca71895a14ab462bfd2b5fa87f
+      internalID: 191678012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_48
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1146
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f38307ca0873864d9419290e1e8e7e1
+      internalID: 1460336330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_49
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 1154
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3f84815396d3144a57328c4fbc0654
+      internalID: 1396266551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_50
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 1148
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5038adba1f178fe4498d87f386082bfe
+      internalID: 1866130172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_51
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 1125
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356beecb047bd8241b1cdcc277b76b40
+      internalID: -645092859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_52
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 124
+        width: 642
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab365070584b46439d16702ad80a9f4
+      internalID: 626053434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_55
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 110
+        width: 617
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab600296edc122438d87aa879823bef
+      internalID: -88350399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_58
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 1118
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d076ae090b372f4db37a22a29e29e4b
+      internalID: -68631594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_59
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 129
+        width: 622
+        height: 978
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a93036a7ab714c468521d0be0cdc146
+      internalID: -90113518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_60
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 124
+        width: 609
+        height: 987
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6523c619f12055c4a9dbd20d4c01b86f
+      internalID: -1161304529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_61
+      rect:
+        serializedVersion: 2
+        x: 3101
+        y: 1106
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564486a9e4fb1b347973de6ce0092ba7
+      internalID: 1497520810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_62
+      rect:
+        serializedVersion: 2
+        x: 3837
+        y: 124
+        width: 603
+        height: 988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bb850a927e3c64c956e26cc242a5e8
+      internalID: -166310617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_63
+      rect:
+        serializedVersion: 2
+        x: 2470
+        y: 124
+        width: 612
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf31528ffe50aae4eacf0536c09f608d
+      internalID: 1050822186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_64
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 1034
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cbb6f045bafa745ada64b851048032
+      internalID: -1768917596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_81
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 436
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cad17ffc8c0f94ea179d1f89c3af6b
+      internalID: -831973045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_105
+      rect:
+        serializedVersion: 2
+        x: 3958
+        y: 134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a2a7d751ced4247a6dbe1f84350f14
+      internalID: 536744569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gato_metalero-sprite-coloreado_107
+      rect:
+        serializedVersion: 2
+        x: 4233
+        y: 122
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39351bde7cfdb254da04d0f97b191646
+      internalID: 837743630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gato_metalero-sprite-coloreado_0: -975630817
+      gato_metalero-sprite-coloreado_1: -598168661
+      gato_metalero-sprite-coloreado_10: -426643063
+      gato_metalero-sprite-coloreado_100: 1114003136
+      gato_metalero-sprite-coloreado_101: -194237645
+      gato_metalero-sprite-coloreado_102: -1011450564
+      gato_metalero-sprite-coloreado_103: 653637876
+      gato_metalero-sprite-coloreado_104: 671283504
+      gato_metalero-sprite-coloreado_105: 536744569
+      gato_metalero-sprite-coloreado_106: -1017367701
+      gato_metalero-sprite-coloreado_107: 837743630
+      gato_metalero-sprite-coloreado_11: -1043196760
+      gato_metalero-sprite-coloreado_12: -1025798413
+      gato_metalero-sprite-coloreado_13: 2109086904
+      gato_metalero-sprite-coloreado_14: -102164285
+      gato_metalero-sprite-coloreado_15: -931671066
+      gato_metalero-sprite-coloreado_16: -647296527
+      gato_metalero-sprite-coloreado_17: 642304840
+      gato_metalero-sprite-coloreado_18: -182741319
+      gato_metalero-sprite-coloreado_19: 1067456052
+      gato_metalero-sprite-coloreado_2: -521668092
+      gato_metalero-sprite-coloreado_20: -68998370
+      gato_metalero-sprite-coloreado_21: 2083865823
+      gato_metalero-sprite-coloreado_22: 1682445689
+      gato_metalero-sprite-coloreado_23: -1934529270
+      gato_metalero-sprite-coloreado_24: 1613625415
+      gato_metalero-sprite-coloreado_25: -636998807
+      gato_metalero-sprite-coloreado_26: 932354575
+      gato_metalero-sprite-coloreado_27: -906091195
+      gato_metalero-sprite-coloreado_28: 1958194062
+      gato_metalero-sprite-coloreado_29: -1710552324
+      gato_metalero-sprite-coloreado_3: 496672618
+      gato_metalero-sprite-coloreado_30: -459552900
+      gato_metalero-sprite-coloreado_31: 662878456
+      gato_metalero-sprite-coloreado_32: 2092132374
+      gato_metalero-sprite-coloreado_33: -1282324910
+      gato_metalero-sprite-coloreado_34: 442433095
+      gato_metalero-sprite-coloreado_35: -266379477
+      gato_metalero-sprite-coloreado_36: 65436229
+      gato_metalero-sprite-coloreado_37: -1830480891
+      gato_metalero-sprite-coloreado_38: 1890776091
+      gato_metalero-sprite-coloreado_39: -872216947
+      gato_metalero-sprite-coloreado_4: -828445388
+      gato_metalero-sprite-coloreado_40: -1207659757
+      gato_metalero-sprite-coloreado_41: -1350929582
+      gato_metalero-sprite-coloreado_42: -1295961095
+      gato_metalero-sprite-coloreado_43: -730443026
+      gato_metalero-sprite-coloreado_44: 1144126502
+      gato_metalero-sprite-coloreado_45: -1925014977
+      gato_metalero-sprite-coloreado_46: -915739606
+      gato_metalero-sprite-coloreado_47: 191678012
+      gato_metalero-sprite-coloreado_48: 1460336330
+      gato_metalero-sprite-coloreado_49: 1396266551
+      gato_metalero-sprite-coloreado_5: 463597951
+      gato_metalero-sprite-coloreado_50: 1866130172
+      gato_metalero-sprite-coloreado_51: -645092859
+      gato_metalero-sprite-coloreado_52: 626053434
+      gato_metalero-sprite-coloreado_53: -1294210055
+      gato_metalero-sprite-coloreado_54: 623852928
+      gato_metalero-sprite-coloreado_55: -88350399
+      gato_metalero-sprite-coloreado_56: -260851368
+      gato_metalero-sprite-coloreado_57: -1205160942
+      gato_metalero-sprite-coloreado_58: -68631594
+      gato_metalero-sprite-coloreado_59: -90113518
+      gato_metalero-sprite-coloreado_6: -1795389717
+      gato_metalero-sprite-coloreado_60: -1161304529
+      gato_metalero-sprite-coloreado_61: 1497520810
+      gato_metalero-sprite-coloreado_62: -166310617
+      gato_metalero-sprite-coloreado_63: 1050822186
+      gato_metalero-sprite-coloreado_64: -1768917596
+      gato_metalero-sprite-coloreado_65: 1514479879
+      gato_metalero-sprite-coloreado_66: 466515385
+      gato_metalero-sprite-coloreado_67: 1989749129
+      gato_metalero-sprite-coloreado_68: 559401924
+      gato_metalero-sprite-coloreado_69: 1966985483
+      gato_metalero-sprite-coloreado_7: 339949454
+      gato_metalero-sprite-coloreado_70: -1875533494
+      gato_metalero-sprite-coloreado_71: -1585055405
+      gato_metalero-sprite-coloreado_72: -1804401271
+      gato_metalero-sprite-coloreado_73: 718036926
+      gato_metalero-sprite-coloreado_74: -1694785744
+      gato_metalero-sprite-coloreado_75: 646392053
+      gato_metalero-sprite-coloreado_76: 809919722
+      gato_metalero-sprite-coloreado_77: -2038018954
+      gato_metalero-sprite-coloreado_78: 1690571306
+      gato_metalero-sprite-coloreado_79: -786225250
+      gato_metalero-sprite-coloreado_8: 1273605029
+      gato_metalero-sprite-coloreado_80: -2133998721
+      gato_metalero-sprite-coloreado_81: -831973045
+      gato_metalero-sprite-coloreado_82: 1782568593
+      gato_metalero-sprite-coloreado_83: -757545799
+      gato_metalero-sprite-coloreado_84: -188518178
+      gato_metalero-sprite-coloreado_85: 1234783865
+      gato_metalero-sprite-coloreado_86: -1599417012
+      gato_metalero-sprite-coloreado_87: -111839551
+      gato_metalero-sprite-coloreado_88: -1892903009
+      gato_metalero-sprite-coloreado_89: -544006358
+      gato_metalero-sprite-coloreado_9: -1037008858
+      gato_metalero-sprite-coloreado_90: 659296909
+      gato_metalero-sprite-coloreado_91: -1241402551
+      gato_metalero-sprite-coloreado_92: -1566847843
+      gato_metalero-sprite-coloreado_93: 468722613
+      gato_metalero-sprite-coloreado_94: 1514638085
+      gato_metalero-sprite-coloreado_95: -1858389830
+      gato_metalero-sprite-coloreado_96: 97285999
+      gato_metalero-sprite-coloreado_97: 527884725
+      gato_metalero-sprite-coloreado_98: -113478049
+      gato_metalero-sprite-coloreado_99: -1914295795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
