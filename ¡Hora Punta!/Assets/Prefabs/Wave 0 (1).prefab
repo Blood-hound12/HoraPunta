@@ -291,6 +291,7 @@ GameObject:
   - component: {fileID: 4881180872941285332}
   - component: {fileID: 8258478743170060768}
   - component: {fileID: 3252438871311147923}
+  - component: {fileID: 5973732668568845008}
   m_Layer: 0
   m_Name: Pasajero verde
   m_TagString: GreenPassenger
@@ -470,6 +471,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 4617811931544253084}
   swipeForce: 10
+--- !u!95 &5973732668568845008
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3324139623496649346}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bf61fa6e63128d74583a9d3c3ca8b5b3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3359864952549181710
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +543,7 @@ GameObject:
   - component: {fileID: 9182835766541712270}
   - component: {fileID: 7381594060181438841}
   - component: {fileID: 369974136563921248}
+  - component: {fileID: 5656000027857219568}
   m_Layer: 0
   m_Name: Pasajero rojo (9)
   m_TagString: RedPassenger
@@ -700,6 +723,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 1815035644277221132}
   swipeForce: 10
+--- !u!95 &5656000027857219568
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4328738046835348889}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec84c3140ad33b743898026c1796efbf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4511352301234166562
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +759,7 @@ GameObject:
   - component: {fileID: 9072135516976756021}
   - component: {fileID: 7276128034520649666}
   - component: {fileID: 552578062485274587}
+  - component: {fileID: 3744564134385204717}
   m_Layer: 0
   m_Name: Pasajero rojo (8)
   m_TagString: RedPassenger
@@ -894,6 +939,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 3190337400702544764}
   swipeForce: 10
+--- !u!95 &3744564134385204717
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4511352301234166562}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2e611efda5221ad47a57a70eb0e5886e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4543835186069870258
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +1166,7 @@ GameObject:
   - component: {fileID: 2653274752065637669}
   - component: {fileID: 1581645112171967249}
   - component: {fileID: 5354173696444875106}
+  - component: {fileID: 7103020107887307269}
   m_Layer: 0
   m_Name: Pasajero verde
   m_TagString: GreenPassenger
@@ -1279,6 +1346,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 6508199093982746065}
   swipeForce: 10
+--- !u!95 &7103020107887307269
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5282322209428973683}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: efaf42cf70291264483f7ce811e5374d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5377012581761496492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,6 +1382,7 @@ GameObject:
   - component: {fileID: 712629082258250683}
   - component: {fileID: 1224003375605637452}
   - component: {fileID: 8335689715027841365}
+  - component: {fileID: 2431017647217154700}
   m_Layer: 0
   m_Name: Pasajero rojo
   m_TagString: RedPassenger
@@ -1473,6 +1562,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 6204424544047183811}
   swipeForce: 10
+--- !u!95 &2431017647217154700
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377012581761496492}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c01b5882e7c306e4a8c5b2ee2d7dbc0d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6068802964106081538
 GameObject:
   m_ObjectHideFlags: 0

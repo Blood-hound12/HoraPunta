@@ -482,6 +482,7 @@ GameObject:
   - component: {fileID: 6933656568054211411}
   - component: {fileID: 8729672777615481252}
   - component: {fileID: 1906392736205760957}
+  - component: {fileID: 647693341125826544}
   m_Layer: 0
   m_Name: Pasajero rojo (1)
   m_TagString: RedPassenger
@@ -661,6 +662,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 1375246093546994740}
   swipeForce: 10
+--- !u!95 &647693341125826544
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2541283367563971908}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c01b5882e7c306e4a8c5b2ee2d7dbc0d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3191120199524275687
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,6 +889,7 @@ GameObject:
   - component: {fileID: 83861665576951710}
   - component: {fileID: 4296036186719120649}
   - component: {fileID: 1755013276045944289}
+  - component: {fileID: 1531004135714529657}
   m_Layer: 0
   m_Name: Pasajero azul (2)
   m_TagString: BluePassenger
@@ -1046,6 +1069,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 327921385921749351}
   swipeForce: 10
+--- !u!95 &1531004135714529657
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3348354944407700212}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1b62c2af23cde5149933b424623a0133, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5959351894699723427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,6 +1105,7 @@ GameObject:
   - component: {fileID: 1283216737072735412}
   - component: {fileID: 635476046674239043}
   - component: {fileID: 7747162419399454298}
+  - component: {fileID: 8383394662384962840}
   m_Layer: 0
   m_Name: Pasajero rojo
   m_TagString: RedPassenger
@@ -1240,6 +1285,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 1256612460501665395}
   swipeForce: 10
+--- !u!95 &8383394662384962840
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5959351894699723427}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec84c3140ad33b743898026c1796efbf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6880902333187889058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,6 +1427,7 @@ GameObject:
   - component: {fileID: 2796029517137612551}
   - component: {fileID: 4598793978441725424}
   - component: {fileID: 6665586892064392681}
+  - component: {fileID: 2127178708940601500}
   m_Layer: 0
   m_Name: Pasajero rojo (3)
   m_TagString: RedPassenger
@@ -1540,6 +1607,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 3191120199524275687}
   swipeForce: 10
+--- !u!95 &2127178708940601500
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7327433712391430416}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2e611efda5221ad47a57a70eb0e5886e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7658089201475382650
 GameObject:
   m_ObjectHideFlags: 0

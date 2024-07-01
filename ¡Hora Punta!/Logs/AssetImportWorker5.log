@@ -1,0 +1,483 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16311 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+Y:\Unity Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+E:/Hora Punta
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50600
+Successfully changed project path to: E:/Hora Punta
+E:/Hora Punta
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7060] Host "[IP] 192.168.1.98 [Port] 0 [Flags] 2 [Guid] 1302958698 [EditorId] 1302958698 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q73APDO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7060] Host "[IP] 192.168.1.98 [Port] 0 [Flags] 2 [Guid] 1302958698 [EditorId] 1302958698 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q73APDO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 17.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path Y:/Unity Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Hora Punta/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5945 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'Y:/Unity Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'Y:/Unity Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Y:/Unity Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Y:/Unity Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: Y:/Unity Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006720 seconds.
+- Loaded All Assemblies, in  0.359 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 291 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.637 seconds
+Domain Reload Profiling: 997ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (638ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (578ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (421ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.742 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1347ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (518ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (288ms)
+				TypeCache.ScanAssembly (271ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (424ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (61.5 KB). Loaded Objects now: 4522.
+Memory consumption went from 149.0 MB to 149.0 MB.
+Total: 3.647500 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.314200 ms MarkObjects: 2.865000 ms  DeleteObjects: 0.141900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3090.377027 seconds.
+  path: Assets/Sprites/animaciones/Am-atigrado-anim-caminando.png
+  artifactKey: Guid(3706f1bb785e38445a4a318f63557add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Am-atigrado-anim-caminando.png using Guid(3706f1bb785e38445a4a318f63557add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568b407878f5aaa3a2c6a87fc3d29466') in 0.533272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/animaciones/Az-atigrado-anim-erizado.png
+  artifactKey: Guid(fc36ad692d619cc45b8a68c5f414f699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Az-atigrado-anim-erizado.png using Guid(fc36ad692d619cc45b8a68c5f414f699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fb1505f5a2fb76d3e43b559315c230') in 0.048013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001022 seconds.
+  path: Assets/Sprites/animaciones/R-blanco-anim-chok.png
+  artifactKey: Guid(87886840190ce7a4a84b88981c4d310b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/R-blanco-anim-chok.png using Guid(87886840190ce7a4a84b88981c4d310b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c810051508232e519ec2d8a9d9381826') in 0.037613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019314 seconds.
+  path: Assets/Sprites/animaciones/R-blanco-anim-erizado.png
+  artifactKey: Guid(34718e186b8fdc34faf826ad07609c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/R-blanco-anim-erizado.png using Guid(34718e186b8fdc34faf826ad07609c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9be418e4f3438a4c56e96cd1f5f064') in 0.233250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Sprites/animaciones/Az-blanco-anim-erizado.png
+  artifactKey: Guid(92424acc98177fb4ba6a985d204e4123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Az-blanco-anim-erizado.png using Guid(92424acc98177fb4ba6a985d204e4123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e3abcca972bf59ff20f4fa92284dbb') in 0.034904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sprites/animaciones/V-atigrado-anim-chok.png
+  artifactKey: Guid(3fb018b3bd760c74a95dcf8aa8e449ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/V-atigrado-anim-chok.png using Guid(3fb018b3bd760c74a95dcf8aa8e449ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215b9d31a5cd0d5f21c7fd8b73b68b7a') in 0.255497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Sprites/animaciones/R-calico-anim-chok.png
+  artifactKey: Guid(f34eecc035fd2194aa21b5d408433f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/R-calico-anim-chok.png using Guid(f34eecc035fd2194aa21b5d408433f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86afd9b74acfe4c32092a4d197e51a1b') in 0.043135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/animaciones/V-calico-anim-chok.png
+  artifactKey: Guid(311b9c2e922255047ac5e938051fc0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/V-calico-anim-chok.png using Guid(311b9c2e922255047ac5e938051fc0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a69769d728b7142f75968dd2c68ea49') in 0.024022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/animaciones/Am-blanco-anim-caminando.png
+  artifactKey: Guid(fe7680a381a1e14408af742ac6a6a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Am-blanco-anim-caminando.png using Guid(fe7680a381a1e14408af742ac6a6a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccedacf64efea2a43a524744bf263339') in 0.020642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/animaciones/Am-calico-anim-erizado.png
+  artifactKey: Guid(9331b5554bdf09f4fb802f8acf23f2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Am-calico-anim-erizado.png using Guid(9331b5554bdf09f4fb802f8acf23f2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077b5b61e5c3de710072c374f1fce02c') in 0.017462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/animaciones/Am-atigrado-anim-erizado.png
+  artifactKey: Guid(d2fc83cdb9910bf4f8e49b3a441adab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Am-atigrado-anim-erizado.png using Guid(d2fc83cdb9910bf4f8e49b3a441adab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6a5e2cbb9da65473604fce38794eb4') in 0.018921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/animaciones/V-siames-anim-erizado.png
+  artifactKey: Guid(b24999be17a0d274ab42a75e4683ab3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/V-siames-anim-erizado.png using Guid(b24999be17a0d274ab42a75e4683ab3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6162f6cfc8469b369af992a3526b44') in 0.019705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/animaciones/R-siames-anim-erizado.png
+  artifactKey: Guid(ddec4a7ce800c224dbb4da0a3c4dd811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/R-siames-anim-erizado.png using Guid(ddec4a7ce800c224dbb4da0a3c4dd811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2570feb710e28ffda1b3d8d56e809141') in 0.020149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/animaciones/Az-blanco-anim-caminando.png
+  artifactKey: Guid(d8424d112def035428836674e4704178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Az-blanco-anim-caminando.png using Guid(d8424d112def035428836674e4704178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b439f6598494900997139ada45f6b4') in 0.019374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/animaciones/V-blanco-anim-chok.png
+  artifactKey: Guid(77819ebd23d7acd429fa9fb059e9ac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/V-blanco-anim-chok.png using Guid(77819ebd23d7acd429fa9fb059e9ac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f345d113115dc87bdf25532b7249dc5e') in 0.018836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/animaciones/R-siames-anim-chok.png
+  artifactKey: Guid(22ba88e3471e48943b2fffeb00881cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/R-siames-anim-chok.png using Guid(22ba88e3471e48943b2fffeb00881cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfcb7daac99d5de41d272fad8857089') in 0.018070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/animaciones/Am-blanco-anim-chok.png
+  artifactKey: Guid(423c34caa58128f488a3c438f0b6df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Am-blanco-anim-chok.png using Guid(423c34caa58128f488a3c438f0b6df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80dce84827b57263928a87b56f4a0684') in 0.018956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/animaciones/Az-atigrado-anim-caminando.png
+  artifactKey: Guid(160c7b0d3d16f514fa58ae0d0c8b0bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Az-atigrado-anim-caminando.png using Guid(160c7b0d3d16f514fa58ae0d0c8b0bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95d3b53f2289f4ab4582f8b42d82970') in 0.019420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/animaciones/V-siames-anim-caminando.png
+  artifactKey: Guid(529c8385cd8e69a48b27c68e38b2800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/V-siames-anim-caminando.png using Guid(529c8385cd8e69a48b27c68e38b2800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa4058e129536c76730d3096e290150') in 0.021904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/animaciones/V-blanco-anim-erizado.png
+  artifactKey: Guid(074f8952c39ed0d47aa3cb871b3f6000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/V-blanco-anim-erizado.png using Guid(074f8952c39ed0d47aa3cb871b3f6000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85431885807a6a72f6a5e4edda9887c') in 0.021216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/animaciones/V-blanco-anim-caminando.png
+  artifactKey: Guid(73fa1a5506c180b419475de6660cb539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/V-blanco-anim-caminando.png using Guid(73fa1a5506c180b419475de6660cb539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51d17b644889ef78c7a4b10d27b9868') in 0.022611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/animaciones/R-blanco-anim-caminando.png
+  artifactKey: Guid(fdb51084ebfbb6546a3051b7ed542607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/R-blanco-anim-caminando.png using Guid(fdb51084ebfbb6546a3051b7ed542607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286b2b58182eb82c76446246f7cd1e86') in 0.020956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Sprites/animaciones/Az-siames-anim-caminando.png
+  artifactKey: Guid(bb67f91704d8e5d419af279895e9b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Az-siames-anim-caminando.png using Guid(bb67f91704d8e5d419af279895e9b313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672b586d00b18d7976d6968485fcd733') in 0.020198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/animaciones/Am-siames-anim-caminando.png
+  artifactKey: Guid(e555c0eefe8633f4c9338c3c09787830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Am-siames-anim-caminando.png using Guid(e555c0eefe8633f4c9338c3c09787830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b35061d45087561ad4f48876187f7b') in 0.020833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/animaciones/R-atigrado-anim-erizado.png
+  artifactKey: Guid(2256ea05272f67548b94c4d31ea29b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/R-atigrado-anim-erizado.png using Guid(2256ea05272f67548b94c4d31ea29b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64d448de1d591f9bff6a66e14107b42') in 0.047980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/animaciones/R-siames-anim-caminando.png
+  artifactKey: Guid(c76a801d07bf9284ba03c57b9edcf2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/R-siames-anim-caminando.png using Guid(c76a801d07bf9284ba03c57b9edcf2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815a52649dc05d13fe97b30e02b9aa7f') in 0.023710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/animaciones/V-siames-anim-chok.png
+  artifactKey: Guid(dc40a35b54c404146b97c2c9e5fa9820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/V-siames-anim-chok.png using Guid(dc40a35b54c404146b97c2c9e5fa9820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd597395b0b627e89e7b58fc97255bbc3') in 0.024009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/animaciones/V-calico-anim-erizado.png
+  artifactKey: Guid(5af717840382d7045b4a9ec263ff64b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/V-calico-anim-erizado.png using Guid(5af717840382d7045b4a9ec263ff64b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a754d79d482de62d598a3dc53d7508') in 0.020975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sprites/animaciones/Az-siames-anim-erizado.png
+  artifactKey: Guid(3a0149212be16b34c887008c39b61d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Az-siames-anim-erizado.png using Guid(3a0149212be16b34c887008c39b61d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cd3396d204a387289f72defa41a233') in 0.023220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/animaciones/R-atigrado-anim-chok.png
+  artifactKey: Guid(1496209b1f5603540999fbc7a9bbb2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/R-atigrado-anim-chok.png using Guid(1496209b1f5603540999fbc7a9bbb2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33bd6756fc4440a6ddfaa719471565d') in 0.024400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/animaciones/Am-siames-anim-erizado.png
+  artifactKey: Guid(ef41b6c594e34f149ba6536660ce6f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Am-siames-anim-erizado.png using Guid(ef41b6c594e34f149ba6536660ce6f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c103409375193cd53757fab70c67a29c') in 0.027137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/animaciones/R-atigrado-anim-caminando.png
+  artifactKey: Guid(e404465b59b712645a443bedde8b3f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/R-atigrado-anim-caminando.png using Guid(e404465b59b712645a443bedde8b3f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d71927be78bdeb54b4c708a2d0c677') in 0.026467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Sprites/animaciones/Az-blanco-anim-chok.png
+  artifactKey: Guid(91e56d018336f814b932263592482613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Az-blanco-anim-chok.png using Guid(91e56d018336f814b932263592482613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81de8697229623a9ca6e1de570654439') in 0.024261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Sprites/animaciones/Am-calico-anim-chok.png
+  artifactKey: Guid(3ce4e7a76e0990f4b9ce0e05270e3776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Am-calico-anim-chok.png using Guid(3ce4e7a76e0990f4b9ce0e05270e3776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21588652effb301d3d4372a84cf4c142') in 0.025231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/animaciones/Az-atigrado-anim-chok.png
+  artifactKey: Guid(0f05e48fd6f682a4e961314221c14de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Az-atigrado-anim-chok.png using Guid(0f05e48fd6f682a4e961314221c14de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d01acf89ea6c8e9c14881523be5a53') in 0.030954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/animaciones/Az-calico-anim-caminando.png
+  artifactKey: Guid(7a8b02b6e1f110d49b691a5bfb4bfe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/Az-calico-anim-caminando.png using Guid(7a8b02b6e1f110d49b691a5bfb4bfe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ef591590cb6c44277ac8871d20a538') in 0.040012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/animaciones/V-calico-anim-caminando.png
+  artifactKey: Guid(4b71422bae8b1624c8c45d52a871fb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/animaciones/V-calico-anim-caminando.png using Guid(4b71422bae8b1624c8c45d52a871fb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b69c0e8711901b14f1008f5a3a5a840') in 0.028965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
