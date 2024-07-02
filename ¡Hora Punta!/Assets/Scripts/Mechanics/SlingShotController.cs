@@ -7,10 +7,18 @@ public class SlingShotController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 startPos;
     private bool isSwiping = false;
+    public bool canEntry = false;
 
     public GameObject arrow;
 
     public float swipeForce = 10f;
+
+    private Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     private void Start()
     {
@@ -27,6 +35,7 @@ public class SlingShotController : MonoBehaviour
                 startPos = touchPos;
                 isSwiping = true;
                 arrow.SetActive(true);
+                animator.SetBool("isThrowing?", true);
             }
         }
 
@@ -45,8 +54,17 @@ public class SlingShotController : MonoBehaviour
                 rb.AddForce(swipeDirection * -swipeForce, ForceMode2D.Impulse);
                 isSwiping = false;
                 arrow.SetActive(false);
+                animator.SetBool("isThrowing?", false);
+                canEntry = true;
+                StartCoroutine(deactivateBool());
             }
         }
+    }
+
+    IEnumerator deactivateBool()
+    {
+        yield return new WaitForSeconds(2f);
+        canEntry = false;
     }
 
     private void UpdateArrow(Vector2 currentPos)

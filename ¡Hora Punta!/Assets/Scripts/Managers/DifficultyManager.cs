@@ -58,6 +58,10 @@ public class DifficultyManager : MonoBehaviour
     void Update()
     {
         //gameCounter += Time.deltaTime;
+        if (CatsCounter >= 24)
+        {
+
+        }
         UpdateDifficultyLevel();
     }
 
@@ -134,42 +138,49 @@ public class DifficultyManager : MonoBehaviour
     {
         while (spawning)
         {
-            float spawnTime = GetSpawnTime();
-            yield return new WaitForSeconds(spawnTime);
-
-            int randomSpawnOriginIndex = Random.Range(0, SpawnOrigins.Length);
-
-            switch (difficultyLevel)
+            if (CatsCounter <= 24)
             {
-                case 1:
-                    SpawnHorde(HordesPrefabLevel1, randomSpawnOriginIndex);
-                    break;
-                case 2:
-                    
-                    if (Random.value < 0.5f)
-                    {
-                        SpawnHorde(HordesPrefabLevel1, randomSpawnOriginIndex);
-                    }
-                    else
-                    {
-                        SpawnHorde(HordesPrefabLevel2, randomSpawnOriginIndex);
-                    }
-                    break;
-                case 3:
+                float spawnTime = GetSpawnTime();
+                yield return new WaitForSeconds(spawnTime);
 
-                    if (Random.value < 0.13f)
-                    {
+                int randomSpawnOriginIndex = Random.Range(0, SpawnOrigins.Length);
+
+                switch (difficultyLevel)
+                {
+                    case 1:
                         SpawnHorde(HordesPrefabLevel1, randomSpawnOriginIndex);
-                    }
-                    else if (Random.value < 0.43f)
-                    {
-                        SpawnHorde(HordesPrefabLevel2, randomSpawnOriginIndex);
-                    }
-                    else
-                    {
-                        SpawnHorde(HordesPrefabLevel3, randomSpawnOriginIndex);
-                    }
-                    break;
+                        break;
+                    case 2:
+
+                        if (Random.value < 0.5f)
+                        {
+                            SpawnHorde(HordesPrefabLevel1, randomSpawnOriginIndex);
+                        }
+                        else
+                        {
+                            SpawnHorde(HordesPrefabLevel2, randomSpawnOriginIndex);
+                        }
+                        break;
+                    case 3:
+
+                        if (Random.value < 0.13f)
+                        {
+                            SpawnHorde(HordesPrefabLevel1, randomSpawnOriginIndex);
+                        }
+                        else if (Random.value < 0.43f)
+                        {
+                            SpawnHorde(HordesPrefabLevel2, randomSpawnOriginIndex);
+                        }
+                        else
+                        {
+                            SpawnHorde(HordesPrefabLevel3, randomSpawnOriginIndex);
+                        }
+                        break;
+                }
+            }
+            else 
+            {
+                yield return null;
             }
         }
     }

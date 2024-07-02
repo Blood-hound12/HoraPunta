@@ -16,6 +16,10 @@ public class Detector : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        SlingShotController slingShotController = collision.gameObject.GetComponent<SlingShotController>();
+
+        if (slingShotController == null || !slingShotController.canEntry) return;
+
         if (collision.gameObject.tag == "GreenPassenger")
         {
             HandleGreenPassenger();

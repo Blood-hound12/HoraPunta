@@ -12,6 +12,7 @@ public class PassengerBehavior : MonoBehaviour
 
     private Rigidbody2D rb;
     private Collider2D collider;
+    private Animator animator;
 
     [SerializeField] float passengerVelocity = 7f;
 
@@ -23,7 +24,7 @@ public class PassengerBehavior : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         difficultyManager = FindObjectOfType<DifficultyManager>();
         difficultyManager.AddCatToCounter();
-
+        animator = GetComponent<Animator>();
     }
 
     private void Start()
@@ -43,11 +44,20 @@ public class PassengerBehavior : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+     if(isMoving)
+        {
+            animator.SetBool("Move", true);
+        }
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.transform.tag == "GameZone")
         {
             isMoving = false;
+            animator.SetBool("Move", false);
             rb.velocity = Vector2.zero;
         }
     }
