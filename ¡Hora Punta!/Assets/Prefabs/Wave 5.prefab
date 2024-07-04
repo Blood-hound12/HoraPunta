@@ -597,6 +597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canEntry: 0
   arrow: {fileID: 1375246093546994740}
   swipeForce: 10
 --- !u!114 &6933656568054211411
@@ -670,7 +671,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2541283367563971908}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c01b5882e7c306e4a8c5b2ee2d7dbc0d, type: 2}
   m_CullingMode: 0
@@ -1039,6 +1040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canEntry: 0
   arrow: {fileID: 327921385921749351}
   swipeForce: 10
 --- !u!114 &4296036186719120649
@@ -1220,6 +1222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canEntry: 0
   arrow: {fileID: 1256612460501665395}
   swipeForce: 10
 --- !u!114 &1283216737072735412
@@ -1293,7 +1296,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5959351894699723427}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ec84c3140ad33b743898026c1796efbf, type: 2}
   m_CullingMode: 0
@@ -1542,6 +1545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7acace9c86273aa4ba8acf9c83b6ebe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canEntry: 0
   arrow: {fileID: 3191120199524275687}
   swipeForce: 10
 --- !u!114 &2796029517137612551
@@ -1615,7 +1619,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7327433712391430416}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 2e611efda5221ad47a57a70eb0e5886e, type: 2}
   m_CullingMode: 0
