@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 957393cd12005434c89c24f037e26d8a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 215
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Az-S-iddle_0
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 172
+        width: 443
+        height: 736
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044f49e37a26f8f4e85ecd959c11687c
+      internalID: 317735800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Az-S-iddle_3
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 172
+        width: 412
+        height: 736
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db06cdbd5266b24bb2df59c71bcdcb8
+      internalID: -1895087064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Az-S-iddle_21
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 172
+        width: 416
+        height: 736
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c938d34a4644a4ca71802602c1e4ad
+      internalID: 342321468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Az-S-iddle_51
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 172
+        width: 449
+        height: 736
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af679a8a09ef61499bf031b26f7d296
+      internalID: -1422645578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Az-S-iddle_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 173
+        width: 404
+        height: 737
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562826e5a0682ef4ba020ff6843663a1
+      internalID: 966931196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Az-S-iddle_0: 317735800
+      Az-S-iddle_1: 966931196
+      Az-S-iddle_10: 880348750
+      Az-S-iddle_100: 370815813
+      Az-S-iddle_101: 1219993047
+      Az-S-iddle_102: -1971793201
+      Az-S-iddle_103: 1047816922
+      Az-S-iddle_104: -1609513930
+      Az-S-iddle_105: 1579067680
+      Az-S-iddle_106: 420421413
+      Az-S-iddle_107: 124325990
+      Az-S-iddle_108: 1651936112
+      Az-S-iddle_109: -1004571031
+      Az-S-iddle_11: 995028977
+      Az-S-iddle_110: -1456507498
+      Az-S-iddle_111: 235958342
+      Az-S-iddle_112: -1568630171
+      Az-S-iddle_113: 1150018487
+      Az-S-iddle_114: -403466407
+      Az-S-iddle_115: 1765902153
+      Az-S-iddle_116: -973073464
+      Az-S-iddle_117: -380310864
+      Az-S-iddle_118: -497638492
+      Az-S-iddle_119: -642789319
+      Az-S-iddle_12: -20898201
+      Az-S-iddle_120: -358095858
+      Az-S-iddle_121: -49930218
+      Az-S-iddle_122: 412325155
+      Az-S-iddle_123: -1071569816
+      Az-S-iddle_124: 166312059
+      Az-S-iddle_125: -993703774
+      Az-S-iddle_126: -1318353510
+      Az-S-iddle_127: -1161222489
+      Az-S-iddle_128: -1670510157
+      Az-S-iddle_129: -829402983
+      Az-S-iddle_13: -955955177
+      Az-S-iddle_130: -1501172159
+      Az-S-iddle_131: -737754991
+      Az-S-iddle_132: -2045681584
+      Az-S-iddle_133: 697140260
+      Az-S-iddle_134: -577169967
+      Az-S-iddle_135: -686551335
+      Az-S-iddle_136: -546207332
+      Az-S-iddle_137: 1075043861
+      Az-S-iddle_138: -1753226641
+      Az-S-iddle_139: -1185907603
+      Az-S-iddle_14: 294909796
+      Az-S-iddle_140: -495064729
+      Az-S-iddle_141: -729111845
+      Az-S-iddle_142: -1370611854
+      Az-S-iddle_143: 872412409
+      Az-S-iddle_144: -1066658685
+      Az-S-iddle_145: 1642414868
+      Az-S-iddle_146: -1304105379
+      Az-S-iddle_147: 1425806977
+      Az-S-iddle_148: -1417072071
+      Az-S-iddle_149: 942741834
+      Az-S-iddle_15: 831605988
+      Az-S-iddle_150: 530963188
+      Az-S-iddle_151: -567158012
+      Az-S-iddle_152: -881074334
+      Az-S-iddle_153: 705933406
+      Az-S-iddle_154: 1096652786
+      Az-S-iddle_155: -1071311028
+      Az-S-iddle_16: -569836915
+      Az-S-iddle_17: 1491167126
+      Az-S-iddle_18: 1686557561
+      Az-S-iddle_19: -711019194
+      Az-S-iddle_2: -107019919
+      Az-S-iddle_20: -1628657227
+      Az-S-iddle_21: 342321468
+      Az-S-iddle_22: 1221571884
+      Az-S-iddle_23: -1921139980
+      Az-S-iddle_24: 1856146239
+      Az-S-iddle_25: -714705720
+      Az-S-iddle_26: -996141822
+      Az-S-iddle_27: -1079676437
+      Az-S-iddle_28: 528173843
+      Az-S-iddle_29: 2087328708
+      Az-S-iddle_3: -1895087064
+      Az-S-iddle_30: 1765766151
+      Az-S-iddle_31: 639952003
+      Az-S-iddle_32: 1017412520
+      Az-S-iddle_33: -1342154948
+      Az-S-iddle_34: 1771951254
+      Az-S-iddle_35: -1835980058
+      Az-S-iddle_36: -808771341
+      Az-S-iddle_37: -1055999474
+      Az-S-iddle_38: -845673355
+      Az-S-iddle_39: -1788611497
+      Az-S-iddle_4: 90221376
+      Az-S-iddle_40: -1789666086
+      Az-S-iddle_41: 484225316
+      Az-S-iddle_42: -921683528
+      Az-S-iddle_43: -554738442
+      Az-S-iddle_44: -283205429
+      Az-S-iddle_45: 1458676432
+      Az-S-iddle_46: -1862845450
+      Az-S-iddle_47: -897439189
+      Az-S-iddle_48: 171782218
+      Az-S-iddle_49: -1311275988
+      Az-S-iddle_5: -1676535948
+      Az-S-iddle_50: 91320812
+      Az-S-iddle_51: -1422645578
+      Az-S-iddle_52: 613341095
+      Az-S-iddle_53: -38426537
+      Az-S-iddle_54: 149946900
+      Az-S-iddle_55: -1808589128
+      Az-S-iddle_56: 1928470515
+      Az-S-iddle_57: -1273800590
+      Az-S-iddle_58: 416679592
+      Az-S-iddle_59: -1962329960
+      Az-S-iddle_6: -1176576212
+      Az-S-iddle_60: 328136814
+      Az-S-iddle_61: 1330391453
+      Az-S-iddle_62: 1349812149
+      Az-S-iddle_63: 417108226
+      Az-S-iddle_64: -873669799
+      Az-S-iddle_65: -91828158
+      Az-S-iddle_66: -154769642
+      Az-S-iddle_67: 1128577673
+      Az-S-iddle_68: -992900552
+      Az-S-iddle_69: -1446992198
+      Az-S-iddle_7: -679829328
+      Az-S-iddle_70: 1060087177
+      Az-S-iddle_71: -1242984350
+      Az-S-iddle_72: -1644135118
+      Az-S-iddle_73: 2089250583
+      Az-S-iddle_74: 620299849
+      Az-S-iddle_75: 604325427
+      Az-S-iddle_76: 226187928
+      Az-S-iddle_77: -506253689
+      Az-S-iddle_78: 847505690
+      Az-S-iddle_79: -1946715903
+      Az-S-iddle_8: -1857093046
+      Az-S-iddle_80: 1021459118
+      Az-S-iddle_81: -1350330402
+      Az-S-iddle_82: -721344371
+      Az-S-iddle_83: 462715493
+      Az-S-iddle_84: 2114332502
+      Az-S-iddle_85: -486543092
+      Az-S-iddle_86: -1528980979
+      Az-S-iddle_87: -650645395
+      Az-S-iddle_88: -1223701731
+      Az-S-iddle_89: 1607619432
+      Az-S-iddle_9: 492776151
+      Az-S-iddle_90: 381687396
+      Az-S-iddle_91: -586385990
+      Az-S-iddle_92: -1885878922
+      Az-S-iddle_93: 1142980069
+      Az-S-iddle_94: 1299240181
+      Az-S-iddle_95: 1771133165
+      Az-S-iddle_96: 1342216188
+      Az-S-iddle_97: -878865923
+      Az-S-iddle_98: -888013833
+      Az-S-iddle_99: 1638176122
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

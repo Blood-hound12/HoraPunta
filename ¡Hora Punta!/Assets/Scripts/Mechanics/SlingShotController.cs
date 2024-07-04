@@ -8,6 +8,7 @@ public class SlingShotController : MonoBehaviour
     private Vector2 startPos;
     private bool isSwiping = false;
     public bool canEntry = false;
+    bool NOTREPEAT = false;
 
     public GameObject arrow;
 
@@ -56,14 +57,19 @@ public class SlingShotController : MonoBehaviour
                 arrow.SetActive(false);
                 animator.SetBool("isThrowing?", false);
                 canEntry = true;
-                StartCoroutine(deactivateBool());
+                if(!NOTREPEAT)
+                {
+                    StartCoroutine(deactivateBool());
+                }
             }
         }
     }
 
-    IEnumerator deactivateBool()
+    public IEnumerator deactivateBool()
     {
-        yield return new WaitForSeconds(2f);
+        NOTREPEAT = true;
+        yield return new WaitForSeconds(2.2f);
+        NOTREPEAT = false;
         canEntry = false;
     }
 
@@ -72,6 +78,20 @@ public class SlingShotController : MonoBehaviour
         Vector2 direction = startPos - currentPos;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         arrow.transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        SlingShotController slingShotController = collision.gameObject.GetComponent<SlingShotController>();
+        if(canEntry && !NOTREPEAT) 
+        {
+            slingShotController.canEntry = true;
+            slingShotController.StartCoroutine(slingShotController.deactivateBool());
+        }
+        else if(canEntry && NOTREPEAT)
+        {
+            slingShotController.canEntry = true;
+        }
     }
 }
 

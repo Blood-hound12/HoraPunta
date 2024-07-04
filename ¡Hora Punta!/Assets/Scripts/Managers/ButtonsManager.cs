@@ -9,6 +9,7 @@ public class ButtonsManager : MonoBehaviour
     public GameObject creditsPanel;
     public GameObject audioPanel;
     public GameObject fundacionesPanel;
+    public GameObject tutorialPanel;
     public GameObject ButtonsGroup;
 
     public AudioManager audioManager;
@@ -72,6 +73,16 @@ public class ButtonsManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void OpenTutorial()
+    {
+        tutorialPanel.SetActive(true);
+
+    }
+
+    public void CloseTutorial()
+    {
+        tutorialPanel.SetActive(false);
+    }
     public void Quit()
     {
         Application.Quit();

@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 76290b38ea4f53e4fbff29cfb360270b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 215
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: R-A-iddle_0
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 172
+        width: 435
+        height: 740
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8c34a3c3d423246ae21f88f148d22c
+      internalID: -195735769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-A-iddle_3
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 172
+        width: 405
+        height: 739
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e625766846c65c48b0c4862de978f6f
+      internalID: -263891403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-A-iddle_21
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 172
+        width: 408
+        height: 731
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac28338a4875f3d499ad5a165907e5c6
+      internalID: -1329335362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-A-iddle_51
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 172
+        width: 441
+        height: 736
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5a911d86ab90e47832e59d24179d55
+      internalID: -501281005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R-A-iddle_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 174
+        width: 407
+        height: 731
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905a257c72185d742a6bd709d81ed848
+      internalID: 1241625573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      R-A-iddle_0: -195735769
+      R-A-iddle_1: 1241625573
+      R-A-iddle_10: -2008648353
+      R-A-iddle_100: 1083029468
+      R-A-iddle_101: 609504891
+      R-A-iddle_102: 1670908503
+      R-A-iddle_103: -303487419
+      R-A-iddle_104: 1086610531
+      R-A-iddle_105: -1889295187
+      R-A-iddle_106: -593998982
+      R-A-iddle_107: 220093718
+      R-A-iddle_108: 903409008
+      R-A-iddle_109: 466991502
+      R-A-iddle_11: 394542689
+      R-A-iddle_110: 1994330288
+      R-A-iddle_111: -1927284836
+      R-A-iddle_112: -143736326
+      R-A-iddle_113: 793851172
+      R-A-iddle_114: -1029447566
+      R-A-iddle_115: -894550683
+      R-A-iddle_116: -1095548961
+      R-A-iddle_117: -2114718006
+      R-A-iddle_118: 221263386
+      R-A-iddle_119: -292206585
+      R-A-iddle_12: -1089650744
+      R-A-iddle_120: 431739565
+      R-A-iddle_121: -866675720
+      R-A-iddle_122: 1188034010
+      R-A-iddle_123: -2009741455
+      R-A-iddle_124: 390199052
+      R-A-iddle_125: 1700261550
+      R-A-iddle_126: -1046764264
+      R-A-iddle_127: -374233579
+      R-A-iddle_128: -1336752994
+      R-A-iddle_129: -1090452360
+      R-A-iddle_13: 519876977
+      R-A-iddle_130: -1646836842
+      R-A-iddle_131: -64473824
+      R-A-iddle_132: -523620764
+      R-A-iddle_133: 1617950117
+      R-A-iddle_134: -1079773033
+      R-A-iddle_135: -1654220422
+      R-A-iddle_136: -1939969830
+      R-A-iddle_137: 1407321030
+      R-A-iddle_138: -1114101315
+      R-A-iddle_139: -2080732326
+      R-A-iddle_14: 511022387
+      R-A-iddle_140: 451105504
+      R-A-iddle_141: -554756696
+      R-A-iddle_142: -1697291638
+      R-A-iddle_143: 558052416
+      R-A-iddle_144: 25372141
+      R-A-iddle_145: -548660278
+      R-A-iddle_146: 1257937949
+      R-A-iddle_147: 216012842
+      R-A-iddle_148: -1259919036
+      R-A-iddle_149: 1234487878
+      R-A-iddle_15: -124864702
+      R-A-iddle_150: 415271440
+      R-A-iddle_151: -2073526601
+      R-A-iddle_152: 358404264
+      R-A-iddle_153: -804733767
+      R-A-iddle_154: -154751026
+      R-A-iddle_155: 1667974770
+      R-A-iddle_16: -976837211
+      R-A-iddle_17: 2073113365
+      R-A-iddle_18: -981516872
+      R-A-iddle_19: 1015000341
+      R-A-iddle_2: -965366544
+      R-A-iddle_20: 236498460
+      R-A-iddle_21: -1329335362
+      R-A-iddle_22: -1887012377
+      R-A-iddle_23: -817562596
+      R-A-iddle_24: 1926936805
+      R-A-iddle_25: -719226750
+      R-A-iddle_26: -678186822
+      R-A-iddle_27: 1795463199
+      R-A-iddle_28: -709710455
+      R-A-iddle_29: -792455029
+      R-A-iddle_3: -263891403
+      R-A-iddle_30: -1148014161
+      R-A-iddle_31: 680939405
+      R-A-iddle_32: -1938092685
+      R-A-iddle_33: -1563827222
+      R-A-iddle_34: 456735942
+      R-A-iddle_35: 1285825290
+      R-A-iddle_36: 1267398464
+      R-A-iddle_37: 831197148
+      R-A-iddle_38: -1618159521
+      R-A-iddle_39: 775144310
+      R-A-iddle_4: 2104422668
+      R-A-iddle_40: 933922584
+      R-A-iddle_41: 1045735536
+      R-A-iddle_42: -654688542
+      R-A-iddle_43: 1259769592
+      R-A-iddle_44: 1240442365
+      R-A-iddle_45: -1651911194
+      R-A-iddle_46: -1230610426
+      R-A-iddle_47: -43524397
+      R-A-iddle_48: 499491405
+      R-A-iddle_49: 1568816965
+      R-A-iddle_5: 920214866
+      R-A-iddle_50: 510891299
+      R-A-iddle_51: -501281005
+      R-A-iddle_52: -1941004817
+      R-A-iddle_53: 1353303420
+      R-A-iddle_54: -1110161391
+      R-A-iddle_55: 49779236
+      R-A-iddle_56: -1592100077
+      R-A-iddle_57: -1688628623
+      R-A-iddle_58: 935948579
+      R-A-iddle_59: -1253947211
+      R-A-iddle_6: 2000052682
+      R-A-iddle_60: 1058203057
+      R-A-iddle_61: -1826266304
+      R-A-iddle_62: 373734225
+      R-A-iddle_63: 1151523608
+      R-A-iddle_64: -1579112921
+      R-A-iddle_65: 909527022
+      R-A-iddle_66: -274438864
+      R-A-iddle_67: -2069278259
+      R-A-iddle_68: 674523917
+      R-A-iddle_69: 1936726772
+      R-A-iddle_7: 1231013900
+      R-A-iddle_70: -989523800
+      R-A-iddle_71: 638956904
+      R-A-iddle_72: -44352790
+      R-A-iddle_73: -164294392
+      R-A-iddle_74: -545708503
+      R-A-iddle_75: -1741429495
+      R-A-iddle_76: 797414399
+      R-A-iddle_77: 1079567127
+      R-A-iddle_78: -355820604
+      R-A-iddle_79: 1064399630
+      R-A-iddle_8: 1256760841
+      R-A-iddle_80: 1907579353
+      R-A-iddle_81: -1709450614
+      R-A-iddle_82: 2117131804
+      R-A-iddle_83: -1556742447
+      R-A-iddle_84: -664714707
+      R-A-iddle_85: 134816142
+      R-A-iddle_86: -1723951167
+      R-A-iddle_87: 1849450538
+      R-A-iddle_88: -1100516314
+      R-A-iddle_89: -1710332369
+      R-A-iddle_9: -482083208
+      R-A-iddle_90: 1674960430
+      R-A-iddle_91: 1668797827
+      R-A-iddle_92: 2058872766
+      R-A-iddle_93: 434662384
+      R-A-iddle_94: 1142984303
+      R-A-iddle_95: -355384117
+      R-A-iddle_96: -717993561
+      R-A-iddle_97: 27494238
+      R-A-iddle_98: 76559604
+      R-A-iddle_99: 163501662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
